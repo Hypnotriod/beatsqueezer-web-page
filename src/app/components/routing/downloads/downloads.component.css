@@ -1,0 +1,7 @@
+.list_item {
+    height: 32px;
+}
+
+.icon_small {
+    transform: scale(0.7);
+}

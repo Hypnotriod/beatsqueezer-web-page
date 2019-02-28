@@ -1,0 +1,9 @@
+<h2>
+  {{"VIDEOS" | getText}}
+</h2>
+
+<div *ngFor="let video of videos" class="video_wrapper">
+  <div class="container">
+    <iframe [src]="video.iframeUrl | safe" frameborder="0" allowfullscreen class="loading video"></iframe>
+  </div>
+</div>

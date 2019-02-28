@@ -1,0 +1,13 @@
+<h2>
+  {{"DOWNLOADS" | getText}}
+</h2>
+
+<mat-list role="list" *ngFor="let downloadItem of downloads">
+  <h3 mat-subheader>{{downloadItem.headerTextId | getText}}</h3>
+  <mat-list-item class="list_item" role="listitem" *ngFor="let item of downloadItem.items">
+    <button mat-button (click)="navigateToUrl(item.href)">
+      <mat-icon svgIcon="download" class="icon_small"></mat-icon>
+      {{item.text}}
+    </button>
+  </mat-list-item>
+</mat-list>

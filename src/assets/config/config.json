@@ -1,0 +1,285 @@
+{
+	"locale": {
+		"defaultLanguage": "en",
+		"supportedLanguages": [
+			"en"
+		]
+	},
+	"layout": {
+		"sideNavCollapseWidth": "630px"
+	},
+	"svgIcons": [
+		{
+			"id": "facebook",
+			"path": "assets/icon/facebook-logo-button.svg"
+		},
+		{
+			"id": "voice",
+			"path": "assets/icon/voice.svg"
+		},
+		{
+			"id": "mail",
+			"path": "assets/icon/mail.svg"
+		},
+		{
+			"id": "menu",
+			"path": "assets/icon/menu.svg"
+		},
+		{
+			"id": "download",
+			"path": "assets/icon/download.svg"
+		}
+	],
+	"navigationBar": {
+		"icons": [
+			{
+				"svgIconId": "facebook",
+				"href": "https://www.facebook.com/groups/beatsqueezer/"
+			},
+			{
+				"svgIconId": "mail",
+				"href": "mailto:hypnotriod@gmail.com"
+			}
+		]
+	},
+	"navigation": {
+		"navListItems": [
+			{
+				"textId": "ABOUT",
+				"path": "/about",
+				"iconId": "info"
+			},
+			{
+				"textId": "FEATURES",
+				"path": "/features",
+				"iconId": "notes"
+			},
+			{
+				"textId": "DOWNLOADS",
+				"path": "/downloads",
+				"iconId": "get_app"
+			},
+			{
+				"textId": "PHOTOS",
+				"path": "/photos",
+				"iconId": "photo"
+			},
+			{
+				"textId": "VIDEOS",
+				"path": "/videos",
+				"iconId": "movie"
+			},
+			{
+				"textId": "EDITOR",
+				"path": "/editor",
+				"iconId": "edit"
+			}
+		]
+	},
+	"about": {
+		"iconUrl": "assets/img/beatsqueezer_schema.png"
+	},
+	"editor": {
+		"iconUrl": "assets/img/editor.jpg"
+	},
+	"photos": [
+		{
+			"previewUrl": "assets/img/preview/1.jpg",
+			"fullSizeUrl": "assets/img/full_size/1.jpg"
+		},
+		{
+			"previewUrl": "assets/img/preview/2.jpg",
+			"fullSizeUrl": "assets/img/full_size/2.jpg"
+		},
+		{
+			"previewUrl": "assets/img/preview/3.jpg",
+			"fullSizeUrl": "assets/img/full_size/3.jpg"
+		},
+		{
+			"previewUrl": "assets/img/preview/4.jpg",
+			"fullSizeUrl": "assets/img/full_size/4.jpg"
+		},
+		{
+			"previewUrl": "assets/img/preview/5.jpg",
+			"fullSizeUrl": "assets/img/full_size/5.jpg"
+		},
+		{
+			"previewUrl": "assets/img/preview/6.jpg",
+			"fullSizeUrl": "assets/img/full_size/6.jpg"
+		}
+	],
+	"videos": [
+		{
+			"iframeUrl": "https://www.youtube.com/embed/1pFQNgUMEVA"
+		},
+		{
+			"iframeUrl": "https://www.youtube.com/embed/CpgD-Ckds9U"
+		},
+		{
+			"iframeUrl": "https://www.youtube.com/embed/m1lv7fBnhXE"
+		}
+	],
+	"downloads": [
+		{
+			"headerTextId": "DOWNLOADS_HEDER_1",
+			"items": [
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpdGllMTE0OXUtNEE",
+					"text": "Flute"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpYlFqbHF3bXNqLWc",
+					"text": "Flute Dizi C"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpZFQ4MmRBc3ZzQXM",
+					"text": "Accordion"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpODIwWDRNTUlSeEk",
+					"text": "Bandura"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpT2NJTXYxNmlXUEE",
+					"text": "Domra (tremolo)"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpRGFiaGo1RkNuZUU",
+					"text": "Oud"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpTThIQTl0NHZnYlE",
+					"text": "Tenor Sax"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpUWtvU0g1SU55SkE",
+					"text": "Strings"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpa3pPc3AtT1QxaW8",
+					"text": "Strings Tremolo"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpQXJtYlhtS1FybkU",
+					"text": "Clarinet"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpWjZ4SmFjcE1PS00",
+					"text": "Marimba"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpcXBPTWdrYldOdHM",
+					"text": "Vibraphone"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpOXdFVUM3M1FUN1U",
+					"text": "Crotales"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpTUphdEN6YlA0dkE",
+					"text": "Bass Guitar"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpd1F1YjZEb0xQdkk",
+					"text": "Harp"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpT0VsUTVPVk1WMFE",
+					"text": "Grand Piano Yamaha C5"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpMDZFRkpseFVBWkk",
+					"text": "Electro Organ"
+				},
+				{
+					"href": "https://drive.google.com/open?id=1Is7k6KuoZSNK6bML--aoqYPUzQErfrp7",
+					"text": "PO-12"
+				},
+				{
+					"href": "https://drive.google.com/open?id=1ln7KOeeaaR9OvSFCgM_AtX7CzZ-vGrZ4",
+					"text": "TR-808"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpSWFZMEtDa25KdGc",
+					"text": "Mellotron Cello"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpeDFTZmM1MXNoM28",
+					"text": "Mellotron Choir"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpSGlYNTJyWkZjd2c",
+					"text": "Mellotron GC3 Brass"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpMG4ySmhXSmNZUFU",
+					"text": "Mellotron M300A Violin"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpUjBwV1duNFMyZlE",
+					"text": "Mellotron M300B Violin"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpNlQwaVp1ZmkxdEE",
+					"text": "Mellotron MkII Brass"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpYUJ2QTVDMHBxZFU",
+					"text": "Mellotron MkII Flute"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpbzhpa2FFV2IxenM",
+					"text": "Mellotron MkII Violins"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpT1BWQ0FLbVVEZXc",
+					"text": "Mellotron String Section"
+				},
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpcmZtMkhmb2NzeHM",
+					"text": "Mellotron Woodwind 2"
+				}
+			]
+		},
+		{
+			"headerTextId": "DOWNLOADS_HEDER_2",
+			"items": [
+				{
+					"href": "https://drive.google.com/open?id=1L7itr9_ETw9UXe9aMDlPU9n3yCMRw0qL",
+					"text": "Banks Editor (.jar) v0.9.8"
+				},
+				{
+					"href": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html",
+					"text": "Java 8 runtime (jre)"
+				}
+			]
+		},
+		{
+			"headerTextId": "DOWNLOADS_HEDER_3",
+			"items": [
+				{
+					"href": "https://drive.google.com/open?id=1vOQiu911NlEcAXArXXvgq9IlEUt_gg71",
+					"text": "Beatsqueezer firmware v1.1.9 (10.01.2019)"
+				}
+			]
+		},
+		{
+			"headerTextId": "DOWNLOADS_HEDER_4",
+			"items": [
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpSjJ3OWl0Z21la1k",
+					"text": "Beatsqueezer firmware v1.0.25"
+				}
+			]
+		},
+		{
+			"headerTextId": "DOWNLOADS_HEDER_5",
+			"items": [
+				{
+					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpSWQ4djlsOFB2UlE",
+					"text": "Beatsqueezer revision 1 design resources"
+				}
+			]
+		}
+	]
+}

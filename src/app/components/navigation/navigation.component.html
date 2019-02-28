@@ -1,0 +1,45 @@
+<mat-sidenav-container class="sidenav-container" [hasBackdrop]="isHandset | async">
+  <mat-sidenav #sidenav class="sidenav" fixedInViewport="true" [autoFocus]="false" [opened]="false"
+    [ngClass]="{'hidden': !(isHandset | async)}">
+    <mat-nav-list>
+      <a *ngFor="let item of navigationVO.navListItems" mat-list-item (click)="sidenav.close()"
+        routerLink="{{item.path}}">
+        <mat-icon class="list_icon">{{item.iconId}}</mat-icon>
+        {{item.textId | getText}}
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+
+    <app-header></app-header>
+
+    <mat-toolbar color="secondary" class="toolbar">
+
+      <button type="button" mat-button (click)="sidenav.toggle()" *ngIf="isHandset | async">
+        <mat-icon>menu</mat-icon>
+        {{"MENU" | getText}}
+      </button>
+
+      <div class="left" layout="row" layout-align="start center" *ngIf="!(isHandset | async)">
+        <button *ngFor="let item of navigationVO.navListItems" routerLink="{{item.path}}"
+          mat-button>{{item.textId | getText}}</button>
+      </div>
+
+      <div class="right" layout="row" layout-align="end center">
+        <button *ngFor="let icon of navBarVO.icons" type="button" mat-icon-button>
+          <mat-icon class="icon_big" svgIcon="{{icon.svgIconId}}" (click)="navigateToUrl(icon.href)"></mat-icon>
+        </button>
+      </div>
+
+    </mat-toolbar>
+
+    <mat-divider></mat-divider>
+
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+
+    <app-footer></app-footer>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

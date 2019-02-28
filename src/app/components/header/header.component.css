@@ -1,0 +1,27 @@
+.header_main_block {
+    background-color: #1b1b1b;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    padding-right: 6px;
+}
+
+h1 {
+    color: #f0f0f0;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: #f0f0f0;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
