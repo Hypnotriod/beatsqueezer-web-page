@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CReplacements } from './CReplacements';
+import { Md5 } from 'ts-md5';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +10,8 @@ export class LocalizationService {
 
   private static readonly REGEXP_LOCALIZATION_ID_FULL: RegExp = /@@[a-zA-Z_0-9]+:/g;
   private static readonly REGEXP_LOCALIZATION_ID: RegExp = /[a-zA-Z_0-9]+/;
-  private static readonly URL_LOCALIZATION: string = 'assets/localization/%LANGUAGE_ID%/localization.txt';
+  private static readonly URL_LOCALIZATION: string = 'assets/localization/%LANGUAGE_ID%/localization.txt?'
+    + new Md5().appendStr(Math.random().toString()).end();
 
   public userLanguage: string = navigator.language.substring(0, 2);
 

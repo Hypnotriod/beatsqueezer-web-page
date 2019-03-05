@@ -2,13 +2,15 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { IConfiguration } from './IConfigurations';
 import { LocalizationService } from '../localization/localization.service';
+import { Md5 } from 'ts-md5/dist/md5';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ConfigurationService {
 
-  private static readonly URL_CONFIGURATIONS_JSON: string = 'assets/config/config.json';
+  private static readonly URL_CONFIGURATIONS_JSON: string = 'assets/config/config.json?'
+    + new Md5().appendStr(Math.random().toString()).end();
 
   public configurationVO: IConfiguration;
 
