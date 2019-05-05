@@ -258,6 +258,10 @@
 			"headerTextId": "DOWNLOADS_HEDER_3",
 			"items": [
 				{
+					"href": "https://drive.google.com/open?id=1HaMW6TGygnsVu6S3vBiv9DHCSk2_BhAB",
+					"text": "Beatsqueezer firmware v1.1.10 (25.04.2019)"
+				},
+				{
 					"href": "https://drive.google.com/open?id=1vOQiu911NlEcAXArXXvgq9IlEUt_gg71",
 					"text": "Beatsqueezer firmware v1.1.9 (10.01.2019)"
 				}

@@ -17,7 +17,7 @@
 
 @@ABOUT_ARTICLE:
 <p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo with up to 16 mono (can be applied panorama) or 12 stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
-<p> It has 1GB internal flash memory for keeping sound Banks (after loading into, all Banks available immediately, no SD card present required), 4 knobs for fx filters (each filters parameters can be accessible with MIDI CC), 1 rotary encoder with button for menu navigation, 128x160 color TFT display, 3.5 jack MIDI IN, 6.3 jack stereo audio output, 
+<p> It has 4GB internal flash memory for keeping sound Banks (after loading into, all Banks available immediately, no SD card present required), 4 knobs for fx filters (each filters parameters can be accessible with MIDI CC), 1 rotary encoder with button for menu navigation, 128x160 color TFT display, 3.5 jack MIDI IN, 6.3 jack stereo audio output, 
     micro SD card slot and full size USB B connector for device powering (can be used any 500 mA power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.), and for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru USB-MIDI protocol. </p>
 <p> With "Banks Editor" software, user has possibility to create his own sample Banks (paches). </p>
 <p>The Bank file format supports:</p> 
@@ -50,7 +50,7 @@
         <li>MIDI thru MIDI IN (3.5 jack) and USB-MIDI at one time</li>
         <li>Loading Banks from SD card (supported FAT32)</li>
         <li>Simple MIDI Tracks Player </li> 
-        <li>Up to 1GByte flash memory (all for user Banks)</li>
+        <li>Up to 4GByte flash memory (all for user Banks)</li>
         <li>Built in bootloader for firmware upgrade or installation different one</li>
         <li>Intuitive and simple navigation thru menu, using only one rotary encoder</li>
         <li>Supports pitch bend wheel +2/-2 semitones </li>
@@ -179,7 +179,7 @@
         <li>Save settings </li>
         <li>Load settings </li>
         <li>Scan internal flash memory for bad blocks (scanning is performed at initial setup, no need to use this feature)</li>
-        <li>Flash memory ID (should be EC-D3-51-95-58) </li>
+        <li>Flash memory ID (4GB version is: EC-D7-55-B6-78; 1GB version is: EC-D3-51-95-58) </li>
         <li>Banks information: used Banks from maximum Banks (128) and busy memory size from device maximum</li>
         <li>Firmware information</li>
     </ul>
@@ -223,7 +223,7 @@
         <li>DSP by STM32F407 168MHz microcontroller</li>
         <li>CS4334 audio DAC</li>
         <li>AD8532 amplifier</li>
-        <li>1GB Samsung K9K8 NAND internal flash memory</li>
+        <li>4GB Samsung NAND internal flash memory</li>
         <li>230 mA power consumption</li>
         <li>5ms latency</li>
         <li>1.8 inch ST7735R SPI 128*160 TFT LCD Display</li>
