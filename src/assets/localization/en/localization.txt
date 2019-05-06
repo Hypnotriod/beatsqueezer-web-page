@@ -176,6 +176,7 @@
         <li>A-B Split Groups Note </li>
         <li>B-C Split Groups Note </li>
         <li>C-D Split Groups Note </li>
+		<li>Use Separate ADSR in Split Groups (yes no) </li>
         <li>Save settings </li>
         <li>Load settings </li>
         <li>Scan internal flash memory for bad blocks (scanning is performed at initial setup, no need to use this feature)</li>
