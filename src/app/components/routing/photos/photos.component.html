@@ -10,7 +10,7 @@
   </div>
 </div> -->
 
-<mat-grid-list cols="{{columnsNum | async}}" rowHeight="3.98:3">
+<mat-grid-list cols="{{columnsNum | async}}" rowHeight="4.48:3">
   <mat-grid-tile *ngFor="let photo of photos; let i = index">
     <div class="photo_frame_holder">
       <img class="photo_frame" src="{{photo.previewUrl}}" (click)="openGallery(i)" />

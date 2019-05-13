@@ -1,26 +1,25 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { IConfiguration } from './IConfigurations';
-import { LocalizationService } from '../localization/localization.service';
-import { Md5 } from 'ts-md5/dist/md5';
+import { NoCachePipe } from 'src/app/pipes/NoCachePipe';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ConfigurationService {
 
-  private static readonly URL_CONFIGURATIONS_JSON: string = 'assets/config/config.json?'
-    + new Md5().appendStr(Math.random().toString()).end();
+  private static readonly URL_CONFIGURATIONS_JSON: string = 'assets/config/config.json';
 
   public configurationVO: IConfiguration;
 
   private onComplete: (success: boolean) => void;
 
-  constructor(private http: HttpClient, private localization: LocalizationService) { }
+  constructor(private http: HttpClient, private noCache: NoCachePipe) { }
 
   public requestConfigurations(onComplete: (success: boolean) => void): void {
+    const url: string = ConfigurationService.URL_CONFIGURATIONS_JSON;
     this.onComplete = onComplete;
-    this.http.get<IConfiguration>(ConfigurationService.URL_CONFIGURATIONS_JSON).subscribe(
+    this.http.get<IConfiguration>(this.noCache.transform(url)).subscribe(
       (data: IConfiguration) => this.onDataLoadingSucces(data),
       (error: any) => this.onDataLoadingError(error));
   }

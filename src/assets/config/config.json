@@ -84,28 +84,28 @@
 	},
 	"photos": [
 		{
-			"previewUrl": "assets/img/preview/1.jpg",
-			"fullSizeUrl": "assets/img/full_size/1.jpg"
+			"previewUrl": "assets/img/preview/1.JPG",
+			"fullSizeUrl": "assets/img/full_size/1.JPG"
 		},
 		{
-			"previewUrl": "assets/img/preview/2.jpg",
-			"fullSizeUrl": "assets/img/full_size/2.jpg"
+			"previewUrl": "assets/img/preview/2.JPG",
+			"fullSizeUrl": "assets/img/full_size/2.JPG"
 		},
 		{
-			"previewUrl": "assets/img/preview/3.jpg",
-			"fullSizeUrl": "assets/img/full_size/3.jpg"
+			"previewUrl": "assets/img/preview/3.JPG",
+			"fullSizeUrl": "assets/img/full_size/3.JPG"
 		},
 		{
-			"previewUrl": "assets/img/preview/4.jpg",
-			"fullSizeUrl": "assets/img/full_size/4.jpg"
+			"previewUrl": "assets/img/preview/4.JPG",
+			"fullSizeUrl": "assets/img/full_size/4.JPG"
 		},
 		{
-			"previewUrl": "assets/img/preview/5.jpg",
-			"fullSizeUrl": "assets/img/full_size/5.jpg"
+			"previewUrl": "assets/img/preview/5.JPG",
+			"fullSizeUrl": "assets/img/full_size/5.JPG"
 		},
 		{
-			"previewUrl": "assets/img/preview/6.jpg",
-			"fullSizeUrl": "assets/img/full_size/6.jpg"
+			"previewUrl": "assets/img/preview/6.JPG",
+			"fullSizeUrl": "assets/img/full_size/6.JPG"
 		}
 	],
 	"videos": [
@@ -260,10 +260,6 @@
 				{
 					"href": "https://drive.google.com/open?id=1HaMW6TGygnsVu6S3vBiv9DHCSk2_BhAB",
 					"text": "Beatsqueezer firmware v1.1.10 (25.04.2019)"
-				},
-				{
-					"href": "https://drive.google.com/open?id=1vOQiu911NlEcAXArXXvgq9IlEUt_gg71",
-					"text": "Beatsqueezer firmware v1.1.9 (10.01.2019)"
 				}
 			]
 		},

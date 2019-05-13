@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CReplacements } from './CReplacements';
-import { Md5 } from 'ts-md5';
+import { NoCachePipe } from 'src/app/pipes/NoCachePipe';
 
 @Injectable({
   providedIn: 'root'
@@ -10,15 +10,14 @@ export class LocalizationService {
 
   private static readonly REGEXP_LOCALIZATION_ID_FULL: RegExp = /@@[a-zA-Z_0-9]+:/g;
   private static readonly REGEXP_LOCALIZATION_ID: RegExp = /[a-zA-Z_0-9]+/;
-  private static readonly URL_LOCALIZATION: string = 'assets/localization/%LANGUAGE_ID%/localization.txt?'
-    + new Md5().appendStr(Math.random().toString()).end();
+  private static readonly URL_LOCALIZATION: string = 'assets/localization/%LANGUAGE_ID%/localization.txt';
 
   public userLanguage: string = navigator.language.substring(0, 2);
 
   private localizationsMap: Map<string, string> = new Map<string, string>();
   private onComplete: (success: boolean) => void;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private noCache: NoCachePipe) { }
 
   public getText(localizationId: string) {
     return this.localizationsMap.get(localizationId) || '';
@@ -27,7 +26,7 @@ export class LocalizationService {
   public requestLocalizations(languageId: string, onComplete: (success: boolean) => void): void {
     this.onComplete = onComplete;
     const url: string = LocalizationService.URL_LOCALIZATION.replace(CReplacements.LANGUAGE_ID, languageId);
-    this.http.get(url, { responseType: 'text' }).subscribe(
+    this.http.get(this.noCache.transform(url), { responseType: 'text' }).subscribe(
       (data: string) => this.onDataLoadingSucces(data),
       (error: any) => this.onDataLoadingError(error));
   }

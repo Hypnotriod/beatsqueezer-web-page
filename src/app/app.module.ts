@@ -19,7 +19,6 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { AboutComponent } from './components/routing/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { InitializationService } from './services/initialization/initialization.service';
-import { LocalizationPipe, SafePipe } from './pipes/Pipes';
 import { FooterComponent } from './components/footer/footer.component';
 import { DownloadsComponent } from './components/routing/downloads/downloads.component';
 import { PhotosComponent } from './components/routing/photos/photos.component';
@@ -27,6 +26,9 @@ import { VideosComponent } from './components/routing/videos/videos.component';
 import { FeaturesComponent } from './components/routing/features/features.component';
 import { EditorComponent } from './components/routing/editor/editor.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { LocalizationPipe } from './pipes/LocalizationPipe';
+import { SafePipe } from './pipes/SafePipe';
+import { NoCachePipe } from './pipes/NoCachePipe';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -46,6 +48,7 @@ export function init_app(initializationService: InitializationService) {
   declarations: [
     LocalizationPipe,
     SafePipe,
+    NoCachePipe,
     AppComponent,
     HeaderComponent,
     NavigationComponent,
@@ -74,6 +77,7 @@ export function init_app(initializationService: InitializationService) {
     RouterModule.forRoot(appRoutes, { enableTracing: true, useHash: true })
   ],
   providers: [
+    NoCachePipe,
     { provide: APP_INITIALIZER, useFactory: init_app, deps: [InitializationService], multi: true }
   ],
   bootstrap: [AppComponent]
