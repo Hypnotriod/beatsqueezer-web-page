@@ -245,12 +245,16 @@
 			"headerTextId": "DOWNLOADS_HEDER_2",
 			"items": [
 				{
+					"href": "https://drive.google.com/open?id=1AZ00OEkdyFi-uoVjBG1OuZBmvvrcnxky",
+					"text": "Banks Editor (.jar) v1.0.1 (Java SE 8 Update 211+)"
+				},
+				{
 					"href": "https://drive.google.com/open?id=1XlQcnCOsJPBmG8zj7HZQuQOjaJohIGcz",
 					"text": "Banks Editor (.jar) v1.0.1"
 				},
 				{
-					"href": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html",
-					"text": "Java 8 runtime (jre)"
+					"href": "https://www.java.com/en/download/",
+					"text": "Java SE 8 runtime (jre)"
 				}
 			]
 		},

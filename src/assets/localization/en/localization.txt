@@ -17,7 +17,7 @@
 @@DOWNLOADS_HEDER_6:Design resources rev. 1 (16x2 LCD):
 
 @@ABOUT_ARTICLE:
-<p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo with up to 16 mono (can be applied panorama) or stereo voices in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
+<p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo, with up to 16 mono (can be applied panorama) or stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
 <p> It has 4GB internal flash memory for keeping samples Banks aka Patches (up to 13 hours 20 minutes of mono or 6 hours 40 minutes stereo samples; after loading to the device’s internal memory all Banks are immediately available, no SD card present is required), 4 knobs for fx filters (each filters parameters can be accessible with MIDI CC), 1 rotary encoder with button for menu navigation, 128x160 color TFT display, 3.5 jack MIDI IN, 6.3 jack stereo audio output, 
     micro SD card slot and full size USB B connector for device powering (can be used any 500 mA power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.), and for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru USB-MIDI protocol. </p>
 <p> With "Banks Editor" software, user has possibility to create his own samples Banks (paches): </p>
