@@ -12,70 +12,103 @@
 @@DOWNLOADS_HEDER_1:Demo Banks:
 @@DOWNLOADS_HEDER_2:Banks Editor:
 @@DOWNLOADS_HEDER_3:Firmware rev. 2 (128x160 TFT):
-@@DOWNLOADS_HEDER_4:Firmware rev. 1 (16x2 LCD):
-@@DOWNLOADS_HEDER_5:Design resources rev. 1 (16x2 LCD):
+@@DOWNLOADS_HEDER_4:Android applications:
+@@DOWNLOADS_HEDER_5:Firmware rev. 1 (16x2 LCD):
+@@DOWNLOADS_HEDER_6:Design resources rev. 1 (16x2 LCD):
 
 @@ABOUT_ARTICLE:
-<p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo with up to 16 mono (can be applied panorama) or 12 stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
-<p> It has 4GB internal flash memory for keeping sound Banks (after loading into, all Banks available immediately, no SD card present required), 4 knobs for fx filters (each filters parameters can be accessible with MIDI CC), 1 rotary encoder with button for menu navigation, 128x160 color TFT display, 3.5 jack MIDI IN, 6.3 jack stereo audio output, 
+<p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo with up to 16 mono (can be applied panorama) or stereo voices in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
+<p> It has 4GB internal flash memory for keeping samples Banks aka Patches (up to 13 hours 20 minutes of mono or 6 hours 40 minutes stereo samples; after loading to the device’s internal memory all Banks are immediately available, no SD card present is required), 4 knobs for fx filters (each filters parameters can be accessible with MIDI CC), 1 rotary encoder with button for menu navigation, 128x160 color TFT display, 3.5 jack MIDI IN, 6.3 jack stereo audio output, 
     micro SD card slot and full size USB B connector for device powering (can be used any 500 mA power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.), and for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru USB-MIDI protocol. </p>
-<p> With "Banks Editor" software, user has possibility to create his own sample Banks (paches). </p>
-<p>The Bank file format supports:</p> 
+<p> With "Banks Editor" software, user has possibility to create his own samples Banks (paches): </p>
 <ul>
     <li>Up to 3 samples ("Default", "Piano" and "Forte") for each of 128 notes with unlimited sample length.</li>
-    <li>Sample loop point, for infinitive playback.</li>
-    <li>Cut group, for playing only one sample at one time from specific group (for example: open and close hat, solo instrument), "self" group to stop playing only same sample, if corresponding note pressed twice and "none" group for multiple sample playback.</li>
+    <li>Sample Loop Point, for infinitive playback.</li>
+    <li>Cut Group, for playing only one sample at one time from specific group (for example: open and close hat, solo instrument), "self" group to stop playing only same sample, if corresponding note pressed twice and "none" group for multiple sample playback.</li>
     <li>Dynamic or Fixed velocity for each sample.</li>
     <li>"One Shot" behaviour.</li>
-    <li>If "One Shot" and loop point are defined, sample goes to "Loop trigger" mode, when 1-st press will play sample and 2-nd will stop it.</li>
+    <li>If "One Shot" and Loop Point are defined, sample goes to "Loop trigger" mode, when 1-st press will play sample and 2-nd will stop it.</li>
     <li>Stereo panorama for each note (mono samples only).</li>
 </ul>
-<p> Also implemented simple MIDI files track Player. Can be played one MIDI Track from song (MIDI file) at one time. Tracks can be switched (next Track will be played after end of previous) and looped in real time. MIDI Player can be triggered and synced with master sequencer, by MIDI Clock and MIDI messages: "Start" (Play MIDI Track), "Stop" (Stop MIDI Track), "Song Select" (Change MIDI Track)</p>
+<p> Also implemented simple MIDI files track Player. Can be played one MIDI Track from song (MIDI file) at one time. Tracks can be switched (next Track will be played after end of previous) and looped in real time. MIDI Player can be triggered and synced with master sequencer, by MIDI Clock and MIDI messages: </p>
+<ul>
+    <li>Start (Play MIDI Track)</li>
+    <li>Stop (Stop MIDI Track)</li>
+    <li>Song Select (Change MIDI Track)</li>
+</ul>
 <p> With "Split Mode" feature, possible to split keyboard in up to 4 ranges (groups), and load individual Bank for every group.</p>
-<p> Beatsqueezer has range of master filters and special effects such as: Low Pass Resonant filter, Ring Modulation, Flanger, Stereo Rotary Vibrato, Limiter, Bitcrusher, Granular Glitch, Delay with Low Pass and High Pass filters, ADSR envelope for amplitude and ADSR for Low Pass filter. All filters are available simultaneously.</p>	
-<p> Supported pitch bend wheel +2/-2 semitones, modulation wheel, expression pedal, sustain pedal, sostenuto pedal, channel pressure (aftertouch).</p>	
-<p> For onboard knobs implemented the "smart knobs" behaviour - filter value will changing, only if real knob position and value will match. </p>
-<p> There is a possibility to upgrade or install different firmware from SD card thru built in bootloader. </p>
+<p> Beatsqueezer has a number of master filters and special effects that are available simultaneously: 
+<ul>
+    <li>Low Pass Resonant filter</li>
+    <li>Ring Modulation</li>
+    <li>Flanger</li>
+    <li>Stereo Rotary Vibrato</li>
+    <li>Limiter</li>
+    <li>Bitcrusher</li>
+    <li>Granular Glitch</li>
+    <li>Delay with Low Pass and High Pass filters</li>
+    <li>ADSR envelope for Amplitude</li>
+    <li>ADSR envelope for Low Pass filter</li>
+    <li>Velocity dependent Attack and Timeshift </li>
+</ul>
+
+<p> Via MIDI messages are supported: </p>	
+<ul>
+    <li>Pitch Bend Wheel +2/-2 semitones</li>
+    <li>Modulation Wheel</li>
+    <li>Expression Pedal</li>
+    <li>Sustain Pedal</li>
+    <li>Sostenuto Pedal</li>
+    <li>Volume</li>
+    <li>Channel Pressure (Aftertouch)</li>
+    <li>Program Change (Bank selection) </li>
+</ul>
+
+<p> For onboard knobs implemented the "Smart Knobs" behaviour - the filter value will react to the knob position only if the actual knob position and the filter value match. </p>
+<p> There is a possibility to upgrade firmware from SD card thru built in bootloader. </p>
 
 @@FEATURES_ARTICLE:
-<p> Main features:</p>
+<p> <h3> Main features: </h3></p>
 <p>
     <ul>
         <li>Stereo output thru 6.3 jack, with a sample rate of 44100 Hz 24 bit</li>
-        <li>16 mono or 12 stereo voices polyphony, with a sample rate of 44100 Hz 16 bit</li>
-        <li>Up to 3 samples: "Default", "Piano" (vel. 1 - 60) and "Forte" (vel. 110 - 127) for each of 128 notes per Bank </li> 
+        <li>16 mono / stereo voices polyphony, with a sample rate of 44100 Hz 16 bit</li>
+        <li>Up to 3 samples: "Default", "Piano" (vel. 1 - 60) and "Forte" (vel. 110 - 127) for each note </li> 
+        <li>Up to 128 notes per Bank</li>
         <li>Up to 128 Banks</li>
+        <li>Up to 4GByte flash memory (all for user Banks)</li>
+        <li>Up to 13 hours 20 minutes of mono or 6 hours 40 minutes stereo samples</li>
         <li>Possibility to choose particular program number for each Bank, or set program number to "any", to arrange all Banks in alphabetical order </li>
         <li>Powering thru USB B socket (can be used: mobile phone charger, 5V adapter with USB socket, power bank, etc)</li>
         <li>MIDI thru MIDI IN (3.5 jack) and USB-MIDI at one time</li>
         <li>Loading Banks from SD card (supported FAT32)</li>
         <li>Simple MIDI Tracks Player </li> 
-        <li>Up to 4GByte flash memory (all for user Banks)</li>
         <li>Built in bootloader for firmware upgrade or installation different one</li>
         <li>Intuitive and simple navigation thru menu, using only one rotary encoder</li>
-        <li>Supports pitch bend wheel +2/-2 semitones </li>
-        <li>Supports modulation wheel with selectable mode (Vibrato value, Low Pass Cut Off, Flanger value or Volume) </li>
-        <li>Supports expression pedal with selectable mode (Vibrato value, Low Pass Cut Off, Flanger value or Volume) </li>
-        <li>Supports channel pressure (Aftertouch) with selectable mode (Vibrato value, Low Pass Cut Off, Volume or disabled) </li>
-        <li>Supports sustain pedal </li>
-        <li>Supports sostenuto pedal </li>
-        <li>Supports program change (Bank selection) </li>
+        <li>Supports Pitch Bend Wheel +2/-2 semitones </li>
+        <li>Supports Modulation Wheel with selectable mode (Vibrato value, Low Pass Cut Off, Flanger value or Volume) </li>
+        <li>Supports Expression Pedal with selectable mode (Vibrato value, Low Pass Cut Off, Flanger value or Volume) </li>
+        <li>Supports Channel Pressure (Aftertouch) with selectable mode (Vibrato value, Low Pass Cut Off, Volume or disabled) </li>
+        <li>Supports Sustain Pedal </li>
+        <li>Supports Sostenuto Pedal </li>
+        <li>Supports Program Change (Bank selection) </li>
         <li>Smooth parameters changing of filters and FX </li>
         <li>Keyboard split feature, up to 4 split groups (ranges) with individual Bank for every group </li>
-        <li>Save FX parameters per Bank, with "double click" in "Knobs FX Patterns" menu </li>
-        <li>Loop point for each sample</li>
-        <li>Cut group for each sample</li>
+        <li>Change default MIDI CC numbers for all FX parameters (Can be assigned to 102 undefined or general purpose CC numbers) </li>
+        <li>Possibility to define initial values for all filters parameters per Bank</li>
+        <li>Save initial FX values per Bank, with "double click" in "Knobs FX Patterns" menu </li>
+        <li>Change between CC numbers or CC values view, with "click" in "Knobs FX Patterns" menu </li>
+        <li>Loop Point for each sample</li>
+        <li>Cut Group for each sample</li>
         <li>Dynamic or fixed velocity for each sample</li>
         <li>"One Shot" behaviour for each sample</li>
         <li>Stereo panorama for each sample (mono samples only)</li>
-        <li>Possibility to define default values for all filters parameters</li>
         <li>"Smart knobs" behaviour</li>
         <li>"Loop trigger" mode</li>
         <li>Selectable USB-MIDI wire (1-16) </li>
         <li>Selectable MIDI channel (1-16)</li>
         <li>Minimum bottom velocity (0-127)</li>
         <li>Staccato or legato attack for LP ADSR filter</li>
-        <li>Editable MIDI CC (Can be assigned on 102 undefined or general purpose CC numbers) </li>
         <li>Saving and loading settings </li>
         <li>128x160 color TFT display</li>
         <li>4 knobs</li>
@@ -83,24 +116,24 @@
     </ul>
 </p>
 
-<p> Filters:</p>
+<p> <h3> Filters: </h3></p>
 <p>
-    <ul clas="circle">
+    <ul>
         <li>Low Pass Resonant filter</li>
         <li>Ring Modulation</li>
         <li>Flanger</li>
         <li>Stereo Rotary Vibrato</li>
         <li>Limiter</li>
         <li>Bitcrusher</li>
-        <li>Granular glitch</li>
+        <li>Granular Glitch</li>
         <li>Delay with Low Pass and High Pass filters</li>
-        <li>ADSR envelope for amplitude</li>
-        <li>ADSR envelope for low pass filter</li>
+        <li>ADSR envelope for Amplitude</li>
+        <li>ADSR envelope for Low Pass filter</li>
         <li>Velocity dependent Attack and Timeshift </li>
     </ul>
 </p>
 
-<p>Default knobs CC numbers:</p>
+<p> <h3> FX params and default CC numbers: </h3> </p>
 <p>
     <ul>
         <li>Low Pass Cut Off (cc 40)</li>
@@ -115,24 +148,28 @@
         <li>Bitcrusher value (cc 49)</li>
         <li>Granular Glitch Shift (cc 50)</li>
         <li>Granular Glitch Length (cc 51)</li>
-        <li>Delay High Pass filter value (cc 52)</li>
-        <li>Delay Low Pass filter value (cc 53)</li>
+        <li>Delay High Pass value (cc 52)</li>
+        <li>Delay Low Pass value (cc 53)</li>
         <li>Delay value (cc 54)</li>
         <li>Delay time (cc 55)</li>
         <li>Amplitude Attack value (cc 56)</li>
         <li>Amplitude Decay value (cc 57)</li>
         <li>Amplitude Sustain value (cc 58)</li>
         <li>Amplitude Release value (cc 59)</li>
-        <li>Low Pass filter Attack value (cc 60)</li>
-        <li>Low Pass filter Decay value (cc 61)</li>
-        <li>Low Pass filter Sustain value (cc 62)</li>
-        <li>Low Pass filter Release value (cc 63)</li>
+        <li>Low Pass Attack value (cc 60)</li>
+        <li>Low Pass Decay value (cc 61)</li>
+        <li>Low Pass Sustain value (cc 62)</li>
+        <li>Low Pass Release value (cc 63)</li>
         <li>Velocity-dependent Amplitude Attack (cc 70) </li>
         <li>Velocity-dependent Timeshift (cc 71) </li>
+        <li>Low Pass Envelope Amount (cc 72)</li>
+        <li>Low Pass Mix (cc 73)</li>
+        <li>Delay Panorama Spread (cc 74)</li>
+        <li>Delay Feedback (cc 75)</li>
     </ul>
 </p>
 
-<p>Additional MIDI messages:</p>
+<p> <h3> Additional MIDI messages: </h3> </p>
 <p>
     <ul>
         <li>Pitch Band Wheel (+2/-2 semitones) </li>
@@ -149,7 +186,7 @@
     </ul>
 </p>
 
-<p>Settings:</p>
+<p><h3>Settings:</h3></p>
 <p>
     <ul>
         <li>USB-MIDI Wire (1-16) </li>
@@ -181,23 +218,22 @@
         <li>Load settings </li>
         <li>Scan internal flash memory for bad blocks (scanning is performed at initial setup, no need to use this feature)</li>
         <li>Flash memory ID (4GB version is: EC-D7-55-B6-78; 1GB version is: EC-D3-51-95-58) </li>
-        <li>Banks information: used Banks from maximum Banks (128) and busy memory size from device maximum</li>
+        <li>Banks information: number of Banks and memory usage</li>
         <li>Firmware information</li>
     </ul>
 </p>
 
-<p>MIDI Player features:</p>
+<p><h3>MIDI Player features:</h3></p>
 <p>
     <ul>
         <li>Play MIDI file Track from SD card (supported FAT32)</li>
         <li>Loop Track</li>
         <li>Switching Tracks in real time to play one after another</li>
-        <li>Change Tempo</li>
-        <li>Sync with master sequencer</li>
+        <li>Change Tempo or sync with master sequencer</li>
     </ul>
 </p>
 
-<p>Firmware update steps:</p>
+<p><h3>Firmware update steps:</h3></p>
 <p>
     <ul>
         <li>Download last firmware file from <a onclick='window.scrollTo("Downloads");'>Downloads -> Firmware</a>.</li>
@@ -208,17 +244,20 @@
     </ul>
 </p>
 
-<p>Menu navigation with encoder:</p>
+<p><h3>Menu navigation with encoder:</h3></p>
 <p>
     <ul>
         <li>Rotate encoder to switch menu items, change parameters, browse files etc.</li>
         <li>Press encoder button (down & up) to select menu item, confirm etc.</li>
         <li>Hold encoder button down to exit to previous menu</li>
-        <li>Hold encoder button down and rotate to quick navigation thru main menu items, then release button to get in (quick mode)</li>
+        <li>Hold encoder button down and rotate for quick navigation thru main menu items, then release button to get in (quick mode)</li>
+        <li>"Double click" in the "Knobs FX Patterns" menu to save initial FX parameters for the current Bank</li>
+        <li>"Click" in the "Knobs FX Patterns" menu to switch between CC numbers or CC values view</li>
+    
     </ul>
 </p>
 
-<p>Additional information:</p>
+<p><h3>Additional information:</h3></p>
 <p>
     <ul>
         <li>DSP by STM32F407 168MHz microcontroller</li>
@@ -229,6 +268,7 @@
         <li>5ms latency</li>
         <li>1.8 inch ST7735R SPI 128*160 TFT LCD Display</li>
         <li>3.5 jack to DIN5 MIDI IN pinout: Sleeve - 2, Ring - 5, Tip - 4</li>
+        <li>Device weight: 320 grams</li>
         <li>Device dimensions: 115mm x 91mm x 45mm</li>
         <li>Steel case dimensions: 115mm x 75mm x 25mm</li>
     </ul>
@@ -238,10 +278,10 @@
 <p>The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
 MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</p>
 
-<p> Usage tips:</p>
+<p> <h3>Usage tips:</h3></p>
 
 <p>
-    <ul clas="circle">
+    <ul>
         <li>For correct displaying, the name length of the Bank should be not more than 16 characters and consist only of Latin letters.</li>
         <li>Notes names are based on MIDI specification. Where C0 (0) is the lowest note, G10 (127) is the highest note, and C5 (60) is the "Middle C".</li>
         <li>To easily load batch of samples in right order - name all your sample files with number at the start.<br>For example: "01_Sample_C5", "02_Sample_C#5", "03_Sample_D5" etc.</li>
@@ -252,15 +292,15 @@ MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</
     </ul>
 </p>
 
-<p> Features:</p>
+<p> <h3>Features:</h3></p>
 <p>
-    <ul clas="circle">
+    <ul>
         <li>Supports Wave PCM 8, 16 and 24 bit various sample rate mono and stereo files, with auto conversion into 44100 Hz 16 bit </li>
         <li>Up to 3 samples: "Default", "Piano" (vel. 1 - 60) and "Forte" (vel. 110 - 127) for each of 128 notes </li> 
-        <li>Cut group</li>
+        <li>Cut Group</li>
         <li>Dynamic or fixed velocity</li>
         <li>"One Shot" behaviour</li>
-        <li>Loop point (by "Sustain Loop", "Loop" or "Marker" info in wav file)</li>
+        <li>Loop Point (by "Sustain Loop", "Loop" or "Marker" info in wav file)</li>
         <li>Peak normalization</li>
         <li>Stereo panorama (mono samples only)</li>
         <li>Default values for all filters parameters</li>

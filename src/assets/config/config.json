@@ -245,8 +245,8 @@
 			"headerTextId": "DOWNLOADS_HEDER_2",
 			"items": [
 				{
-					"href": "https://drive.google.com/open?id=1nIsGvKp8noNC7dINYEt0LESfMCM_Us5B",
-					"text": "Banks Editor (.jar) v1.0.0"
+					"href": "https://drive.google.com/open?id=1XlQcnCOsJPBmG8zj7HZQuQOjaJohIGcz",
+					"text": "Banks Editor (.jar) v1.0.1"
 				},
 				{
 					"href": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html",
@@ -258,6 +258,10 @@
 			"headerTextId": "DOWNLOADS_HEDER_3",
 			"items": [
 				{
+					"href": "https://drive.google.com/open?id=1QVeKGnkq-IXdim66pLG4BmxJClJ-PY__",
+					"text": "Beatsqueezer firmware v1.1.11 (07.06.2019)"
+				},
+				{
 					"href": "https://drive.google.com/open?id=1HaMW6TGygnsVu6S3vBiv9DHCSk2_BhAB",
 					"text": "Beatsqueezer firmware v1.1.10 (25.04.2019)"
 				}
@@ -267,13 +271,30 @@
 			"headerTextId": "DOWNLOADS_HEDER_4",
 			"items": [
 				{
+					"href": "https://drive.google.com/open?id=1AM_gVCugQoeg146K2A27sA1vf9J0Nt1Z",
+					"text": "BeatsqueezerVirtualPad_v1.0.1.apk"
+				},
+				{
+					"href": "https://drive.google.com/open?id=1aV3zCQB05gQgYGdYMOjHjMAL_VgAoWdq",
+					"text": "GrooveBox_v0.0.1.apk"
+				},
+				{
+					"href": "https://drive.google.com/open?id=1VxUpJWJPiC7WsO3mZdqBNoapS2tx9ekK",
+					"text": "GrooveBox.docx"
+				}
+			]
+		},
+		{
+			"headerTextId": "DOWNLOADS_HEDER_5",
+			"items": [
+				{
 					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpSjJ3OWl0Z21la1k",
 					"text": "Beatsqueezer firmware v1.0.25"
 				}
 			]
 		},
 		{
-			"headerTextId": "DOWNLOADS_HEDER_5",
+			"headerTextId": "DOWNLOADS_HEDER_6",
 			"items": [
 				{
 					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpSWQ4djlsOFB2UlE",
