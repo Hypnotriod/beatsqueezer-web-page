@@ -278,6 +278,15 @@
 <p>The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
 MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</p>
 
+<p>To check Java availability - type in console:</p>
+<p><span class="code">java -version</span></p>
+<p>To be able to launch the .jar file with a "double click" on MAC OS, you need to make it executable:</p>
+<p><span class="code">sudo chmod +x&nbsp;</span></p>
+<p>Then drag .jar file into console, and press enter.</p>
+<p>At least you can always start the program by typing in the console:</p>
+<p><span class="code">java -jar&nbsp;</span></p>
+<p>Then drag .jar file into console, and press enter.</p>
+
 <p> <h3>Usage tips:</h3></p>
 
 <p>
@@ -288,7 +297,7 @@ MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</
         <li>Use "Pitch Step" option, if you have samples with interval more than semitone.</li>
         <li>To use "Loop" point your sample wav file should have "Sustain Loop", "Loop" or "Marker" info. You can add it with audio editor such as "Wavosaur", "Sound Forge". </li>
         <li>To use "Piano" and "Forte" feature you can name your sample files with "_p" and "_f" at the end.<br>For example: "01_Sample_C5" ("default" sample name), "01_Sample_C5_p" ("piano" sample name) and "01_Sample_C5_f" ("forte" sample name). Or simply drag and drop them into corresponding slot.</li>
-        <li>Use "Macro" option, to change parameter for all loaded samples simultaneously.</li>
+        <li>Use "Macro" option, to change specific parameter for all loaded samples.</li>
     </ul>
 </p>
 

@@ -2,14 +2,6 @@
   {{"PHOTOS" | getText}}
 </h2>
 
-<!-- <div class="photos_wrapper">
-  <div class="photo_list">
-    <div *ngFor="let photo of photos; let i = index" class="photo_list_wrapper">
-      <div class="photo_frame" [style.backgroundImage]="'url('+ photo.previewUrl +')'" (click)="openGallery(i)"></div>
-    </div>
-  </div>
-</div> -->
-
 <mat-grid-list cols="{{columnsNum | async}}" rowHeight="4.48:3">
   <mat-grid-tile *ngFor="let photo of photos; let i = index">
     <div class="photo_frame_holder">

@@ -24,6 +24,12 @@ li {
     font-style: italic;
 }
 
+.code {
+    color: #404040;
+    background-color: #DDDDDD;
+    margin-left: 10px;
+}
+
 h3 {
     color: #333;
 }
