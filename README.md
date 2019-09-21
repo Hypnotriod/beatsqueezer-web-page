@@ -1,6 +1,6 @@
 # Beatsqueezer
 
-Made for http://www.hypnotriod.org/beatsqueezer, with `Angular` framework `v6.1.10` using `Visual Studio Code v1.33.1`
+Made for http://www.hypnotriod.org/beatsqueezer, with `Angular` framework `v6.1.10`
 
 ## Development server
 
