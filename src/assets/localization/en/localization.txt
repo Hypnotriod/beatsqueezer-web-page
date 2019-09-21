@@ -62,6 +62,7 @@
     <li>Volume</li>
     <li>Channel Pressure (Aftertouch)</li>
     <li>Program Change (Bank selection) </li>
+	<li>Program Change LSB (Split Group selection) </li>
 </ul>
 
 <p> For onboard knobs implemented the "Smart Knobs" behaviour - the filter value will react to the knob position only if the actual knob position and the filter value match. </p>
@@ -92,11 +93,11 @@
         <li>Supports Sustain Pedal </li>
         <li>Supports Sostenuto Pedal </li>
         <li>Supports Program Change (Bank selection) </li>
+        <li>Keyboard split feature, up to 4 split groups (ranges) with individual Bank for every group. Can be changed via "Program Change LSB" message: 0 - ALL, 1 - group A, 2 - group B, 3 - group C, 4 - group D, 5 - groups A-B, 6 - groups C-D  </li>
         <li>Smooth parameters changing of filters and FX </li>
-        <li>Keyboard split feature, up to 4 split groups (ranges) with individual Bank for every group </li>
-        <li>Change default MIDI CC numbers for all FX parameters (Can be assigned to 102 undefined or general purpose CC numbers) </li>
+		<li>Change default MIDI CC numbers for all FX parameters (Can be assigned to 102 undefined or general purpose CC numbers) </li>
         <li>Possibility to define initial values for all filters parameters per Bank</li>
-        <li>Save initial FX values per Bank, with "double click" in "Knobs FX Patterns" menu </li>
+        <li>Save initial FX values per Bank, with "double click" in "Knobs FX Patterns" menu or "Change Program" in "Manage Bank" menu </li>
         <li>Change between CC numbers or CC values view, with "click" in "Knobs FX Patterns" menu </li>
         <li>Loop Point for each sample</li>
         <li>Cut Group for each sample</li>
@@ -180,6 +181,7 @@
         <li>Volume (cc 7)</li>
         <li>Channel Pressure (Aftertouch) </li>
         <li>Program Change (Bank selection) </li>
+		<li>Program Change LSB (Split Group selection) </li>
         <li>Start (Play MIDI Track) </li>
         <li>Stop (Stop MIDI Track) </li> 
         <li>Song Select (Change MIDI Track)</li>
@@ -277,6 +279,8 @@
 @@EDITOR_ARTICLE:
 <p>The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
 MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</p>
+
+<p>Page on <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a></p>
 
 <p>To check Java availability - type in console:</p>
 <p><span class="code">java -version</span></p>

@@ -124,6 +124,10 @@
 			"headerTextId": "DOWNLOADS_HEDER_1",
 			"items": [
 				{
+					"href": "https://drive.google.com/open?id=1EL2LJ5dj6GvuaJx3spZ7I6VBVB1nwjP0",
+					"text": "100 Year Old Piano"
+				},
+				{
 					"href": "https://drive.google.com/open?id=0Bwjx_HxS4URpdGllMTE0OXUtNEE",
 					"text": "Flute"
 				},
@@ -245,8 +249,8 @@
 			"headerTextId": "DOWNLOADS_HEDER_2",
 			"items": [
 				{
-					"href": "https://drive.google.com/open?id=1zwtBZ5oU25fJSU6U9jKNIFsNmCij5kO6",
-					"text": "Banks Editor (.jar) v1.0.2"
+					"href": "https://drive.google.com/open?id=13JbrfUJZr9dspWaI0FW3OOlfmybPt827",
+					"text": "Banks Editor (.jar) v1.0.3"
 				},
 				{
 					"href": "https://www.java.com/en/download/",
@@ -258,12 +262,16 @@
 			"headerTextId": "DOWNLOADS_HEDER_3",
 			"items": [
 				{
-					"href": "https://drive.google.com/open?id=1QVeKGnkq-IXdim66pLG4BmxJClJ-PY__",
-					"text": "Beatsqueezer firmware v1.1.11 (07.06.2019)"
+					"href": "https://drive.google.com/open?id=1omW2vZjalSqrNbogRvJEZGbuAg7y57kn",
+					"text": "Beatsqueezer firmware v1.1.14 (11.09.2019)"
 				},
 				{
-					"href": "https://drive.google.com/open?id=1HaMW6TGygnsVu6S3vBiv9DHCSk2_BhAB",
-					"text": "Beatsqueezer firmware v1.1.10 (25.04.2019)"
+					"href": "https://drive.google.com/open?id=1jZ6aTtORaqYVyK9ay7Y1GNKHQ-9HYYdq",
+					"text": "Beatsqueezer firmware v1.1.13 (24.08.2019)"
+				},
+				{
+					"href": "https://drive.google.com/open?id=1vRIURQgWqmcXZNm7LzZyZRIuzRiJVI-T",
+					"text": "Beatsqueezer firmware v1.1.12 (27.07.2019)"
 				}
 			]
 		},
