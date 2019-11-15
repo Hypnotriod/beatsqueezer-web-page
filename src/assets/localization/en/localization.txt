@@ -233,14 +233,14 @@ MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</
 <p><h3>Device powering:</h3></p>
 <p>
     Device can be powered via USB-B socket with any 500 mA (or more) power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
-    Please use external power source and MIDI connection to avoid noises caused by ground loop. For example if several audio device are powered from usb port of laptop or pc.  
+    Please use external power source and MIDI connection to avoid noises caused by ground loop. For example if several audio device are powered from usb port of same laptop or pc.  
 <p>
 
 <p><h3>Banks (patches):</h3></p>
 <p>
     Device works only with Bank files (.btsqbank). <br>
     All Banks can be loaded only from micro SD card.<br>
-    To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software. Go to Banks Editor tab for more details.
+    To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software (Please go to Banks Editor tab for more details).
 <p>
 
 <p><h3>Menu navigation with encoder:</h3></p>
@@ -255,7 +255,21 @@ MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</
     </ul>
 </p>
 
-<p><h3>Settings:</h3></p>
+<p><h3>Manage Bank menu:</h3></p>
+<p>
+    <ul>
+        <li>Change Program.</li>
+        Changes program number of selected Bank
+        <li>Save Knobs.</li>
+        Saves current knobs positions for selected Bank.
+        <li>Save To SD card</li>
+        Creates "Beatsqueezer Banks" folder on SD card and saves selected Bank to it. For now this feature is unstable! Can cause "SD card operation Error".
+        <li>Delete</li>
+        Deletes selected Bank from internal flash memory.
+    </ul>
+</p>
+
+<p><h3>Settings menu:</h3></p>
 <p>
     <ul>
         <li>USB-MIDI Wire (1-16) </li>
