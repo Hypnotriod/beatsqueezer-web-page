@@ -36,10 +36,17 @@ li {
     color: #000000;
 }
 
+.lib {
+    font-family: SecondaryFont, "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+    color: #000000;
+}
+
 p {
-    font-family: MainFont, "Helvetica Neue", sans-serif;
+    font-family: SecondaryFont, "Helvetica Neue", sans-serif;
     border-left: 5px solid #BBB;
     padding-left: 10px;
+    line-height: 1.5;
 }
 
 h3 {
@@ -50,7 +57,6 @@ h3 {
 a {
     font-family: SecondaryFont, "Helvetica Neue", sans-serif;
     color: #333;
-    line-height: 1.5;
 }
 
 .code {
