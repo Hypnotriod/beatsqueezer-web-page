@@ -56,8 +56,10 @@
     <li>Stop (Stop MIDI Track)</li>
     <li>Song Select (Change MIDI Track)</li>
 </ul>
-<p> With "Split Mode" feature, possible to split keyboard in up to 4 ranges (groups), and load individual Bank for every group.</p>
-<p> Beatsqueezer has a number of master filters and special effects that are available simultaneously: 
+<p> 
+    With "Split Mode" feature, possible to split keyboard in up to 4 ranges (groups), and load individual Bank for every group.<br>
+    Beatsqueezer has a number of master filters and special effects that are available simultaneously: 
+</p>
 <ul>
     <li>Low Pass Resonant filter</li>
     <li>Ring Modulation</li>
@@ -85,8 +87,10 @@
 	<li>Program Change LSB (Split Group selection) </li>
 </ul>
 
-<p> For onboard knobs implemented the "Smart Knobs" behaviour - the filter value will react to the knob position only if the actual knob position and the filter value match. </p>
-<p> There is a possibility to upgrade firmware from SD card thru built in bootloader. </p>
+<p> 
+    For onboard knobs implemented the "Smart Knobs" behaviour - the filter value will react to the knob position only if the actual knob position and the filter value match. <br>
+    There is a possibility to upgrade firmware from SD card thru built in bootloader. 
+</p>
 
 @@FEATURES_ARTICLE:
 <p> <h3> Main features: </h3></p>
@@ -182,14 +186,16 @@
 </p>
 
 @@EDITOR_ARTICLE:
-<p>The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
-MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</p>
-
-<p>Page on <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a></p>
-
-<p>To check Java availability - type in console: <span class="code">java -version</span></p>
-<p>To be able to launch the .jar file with a "double click" on MAC OS, you need to make it executable: <span class="code">sudo chmod +x&nbsp;</span> then drag .jar file into console, and press enter.</p>
-<p>At least you can always start the program by typing in the console: <span class="code">java -jar&nbsp;</span> then drag .jar file into console, and press enter.</p>
+<p>
+    The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
+    MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)<br>
+    Page on <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a>
+</p>
+<p>
+    To check Java availability - type in console: <span class="code">java -version</span><br>
+    To be able to launch the .jar file with a "double click" on MAC OS, you need to make it executable: <span class="code">sudo chmod +x&nbsp;</span> then drag .jar file into console, and press enter.<br>
+    At least you can always start the program by typing in the console: <span class="code">java -jar&nbsp;</span> then drag .jar file into console, and press enter.
+</p>
 
 <p> <h3>Usage tips:</h3></p>
 
@@ -239,8 +245,8 @@ MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</
 <p><h3>Banks (patches):</h3></p>
 <p>
     Device works only with Bank files (.btsqbank). <br>
-    All Banks can be loaded only from micro SD card.<br>
-    To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software (Please go to Banks Editor tab for more details).
+    All Banks files can be loaded only from micro SD card.<br>
+    To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software (Please navigate to Banks Editor tab for more details).
 <p>
 
 <p><h3>Menu navigation with encoder:</h3></p>
@@ -259,7 +265,7 @@ MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</
 <p>
     <ul>
         <li>Change Program.</li>
-        Changes program number of selected Bank
+        Changes program number of selected Bank.
         <li>Save Knobs.</li>
         Saves current knobs positions for selected Bank.
         <li>Save To SD card</li>

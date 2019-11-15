@@ -32,12 +32,14 @@ body {
 
 li {
     font-family: SecondaryFontLight, "Helvetica Neue", sans-serif;
-    font-size: 95%;
     line-height: 1.5;
+    color: #000000;
 }
 
 p {
     font-family: MainFont, "Helvetica Neue", sans-serif;
+    border-left: 5px solid #BBB;
+    padding-left: 10px;
 }
 
 h3 {
