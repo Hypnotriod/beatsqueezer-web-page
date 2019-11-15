@@ -7,6 +7,7 @@
 @@PHOTOS:Photos
 @@VIDEOS:Videos
 @@FEATURES:Features
+@@MANUAL:Manual
 @@EDITOR:Banks Editor
 
 @@DOWNLOADS_HEDER_1:Demo Banks:
@@ -18,9 +19,28 @@
 
 @@ABOUT_ARTICLE:
 <p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo, with up to 16 mono (can be applied panorama) or stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
-<p> It has 4GB internal flash memory for keeping samples Banks aka Patches (up to 13 hours 20 minutes of mono or 6 hours 40 minutes stereo samples; after loading to the device’s internal memory all Banks are immediately available, no SD card present is required), 4 knobs for fx filters (each filters parameters can be accessible with MIDI CC), 1 rotary encoder with button for menu navigation, 128x160 color TFT display, 3.5 jack MIDI IN, 6.3 jack stereo audio output, 
-    micro SD card slot and full size USB B connector for device powering (can be used any 500 mA power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.), and for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru USB-MIDI protocol. </p>
+
+<ul>
+    <li>4GB internal flash memory for keeping samples Banks aka Patches.<br>
+    Up to 13 hours 20 minutes of mono or 6 hours 40 minutes stereo samples.<br>
+    After loading to the device’s internal memory all Banks are immediately available, no SD card present is required.
+    </li>
+    <li>4 knobs for fx filters.<br>
+    Each filters parameters can be accessed with MIDI CC as well.
+    </li>
+    <li>1 rotary encoder with button for menu navigation.</li>
+    <li>128x160 color TFT display.</li>
+    <li>3.5 jack MIDI IN.</li>
+    <li>6.3 jack stereo audio output.</li>
+    <li>Micro SD card slot.</li>
+    <li>Full size USB B connector for device powering.<br> 
+    Can be used any 500 mA power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
+    And for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru USB-MIDI protocol.
+    </li>
+</ul>
+
 <p> With "Banks Editor" software, user has possibility to create his own samples Banks (paches): </p>
+
 <ul>
     <li>Up to 3 samples ("Default", "Piano" and "Forte") for each of 128 notes with unlimited sample length.</li>
     <li>Sample Loop Point, for infinitive playback.</li>
@@ -134,6 +154,176 @@
     </ul>
 </p>
 
+<p><h3>MIDI Player features:</h3></p>
+<p>
+    <ul>
+        <li>Play MIDI file Track from SD card (supported FAT32)</li>
+        <li>Loop Track</li>
+        <li>Switching Tracks in real time to play one after another</li>
+        <li>Change Tempo or sync with master sequencer</li>
+    </ul>
+</p>
+
+<p><h3>Additional information:</h3></p>
+<p>
+    <ul>
+        <li>DSP by STM32F407 168MHz microcontroller</li>
+        <li>CS4334 audio DAC</li>
+        <li>AD8532 amplifier</li>
+        <li>4GB Samsung NAND internal flash memory</li>
+        <li>230 mA power consumption</li>
+        <li>5ms latency</li>
+        <li>1.8 inch ST7735R SPI 128*160 TFT LCD Display</li>
+        <li>3.5 jack to DIN5 MIDI IN pinout: Sleeve - 2, Ring - 5, Tip - 4</li>
+        <li>Device weight: 320 grams</li>
+        <li>Device dimensions: 115mm x 91mm x 45mm</li>
+        <li>Steel case dimensions: 115mm x 75mm x 25mm</li>
+    </ul>
+</p>
+
+@@EDITOR_ARTICLE:
+<p>The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
+MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</p>
+
+<p>Page on <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a></p>
+
+<p>To check Java availability - type in console: <span class="code">java -version</span></p>
+<p>To be able to launch the .jar file with a "double click" on MAC OS, you need to make it executable: <span class="code">sudo chmod +x&nbsp;</span> then drag .jar file into console, and press enter.</p>
+<p>At least you can always start the program by typing in the console: <span class="code">java -jar&nbsp;</span> then drag .jar file into console, and press enter.</p>
+
+<p> <h3>Usage tips:</h3></p>
+
+<p>
+    <ul>
+        <li>Hover over user interface elements to get pop-up information.</li>
+        <li>Please note that all added samples will be immediately affected by the parameters from the top configuration panel. And you cannot change the "Pitch" or "Normalization" of the sample after loading it.</li>
+        <li>All other sample parameters can be changed individually at sample panel.</li>
+        <li>Use "Macro" option, to change specific parameter for all loaded samples.</li>
+        <li>Notes names are based on MIDI specification. Where C0 (0) is the lowest note, G10 (127) is the highest note, and C5 (60) is the "Middle C". You can choose between "C5", "C4" or "C3" as "Middle C" at "Options" -> "Notes Names Display"</li>
+        <li>To easily load batch of samples in right order - name all your sample files with number at the start.<br>For example: "01_Sample_C5", "02_Sample_C#5", "03_Sample_D5" etc.</li>
+        <li>Use "Pitch Step" option, if you have samples with interval more than semitone. Or if you want to populate keyboard with one sample.</li>
+        <li>To use "Loop" point your sample wav file should have "Sustain Loop", "Loop" or "Marker" info. You can add it with audio editor such as "Wavosaur", "Sound Forge", using "M" hotkey (insert marker at playbar/cursor) </li>
+        <li>To use "Piano" and "Forte" feature you can name your sample files with "_p" and "_f" at the end.<br>For example: "01_Sample_C5" ("default" sample name), "01_Sample_C5_p" ("piano" sample name) and "01_Sample_C5_f" ("forte" sample name). Then load all samples simultaniosly. Or simply drag and drop them into corresponding slot.</li>
+        <li>For correct displaying, the name length of the Bank should be not more than 16 characters and consist only of Latin letters.</li>
+    </ul>
+</p>
+
+<p> <h3>Features:</h3></p>
+<p>
+    <ul>
+        <li>Supports Wave PCM 8, 16 and 24 bit various sample rate mono and stereo files, with auto conversion into 44100 Hz 16 bit </li>
+        <li>Up to 3 samples: "Default", "Piano" (vel. 1 - 60) and "Forte" (vel. 110 - 127) for each of 128 notes </li> 
+        <li>Cut Group</li>
+        <li>Dynamic or fixed velocity</li>
+        <li>"One Shot" behaviour</li>
+        <li>Loop Point (by "Sustain Loop", "Loop" or "Marker" info in wav file)</li>
+        <li>Peak normalization</li>
+        <li>Stereo panorama (mono samples only)</li>
+        <li>Default values for all filters parameters</li>
+        <li>Pitch</li>
+        <li>Pitch step</li>
+        <li>Macro</li>
+        <li>Exporting all Bank samples as wav files</li>
+        <li>Drag and Drop</li>
+    </ul>
+</p>
+
+@@MANUAL_ARTICLE:
+
+<p><h3>Device powering:</h3></p>
+<p>
+    Device can be powered via USB-B socket with any 500 mA (or more) power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
+    Please use external power source and MIDI connection to avoid noises caused by ground loop. For example if several audio device are powered from usb port of laptop or pc.  
+<p>
+
+<p><h3>Banks (patches):</h3></p>
+<p>
+    Device works only with Bank files (.btsqbank). <br>
+    All Banks can be loaded only from micro SD card.<br>
+    To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software. Go to Banks Editor tab for more details.
+<p>
+
+<p><h3>Menu navigation with encoder:</h3></p>
+<p>
+    <ul>
+        <li>Rotate encoder to switch menu items, change parameters, browse files etc.</li>
+        <li>Press encoder button (down & up) to select menu item, confirm etc.</li>
+        <li>Hold encoder button down to exit to previous menu</li>
+        <li>Hold encoder button down and rotate for quick navigation thru main menu items, then release button to get in (quick mode)</li>
+        <li>"Double click" in the "Knobs FX Patterns" menu to save initial FX parameters for the current Bank</li>
+        <li>"Click" in the "Knobs FX Patterns" menu to switch between CC numbers or CC values view</li>
+    </ul>
+</p>
+
+<p><h3>Settings:</h3></p>
+<p>
+    <ul>
+        <li>USB-MIDI Wire (1-16) </li>
+        Represents physical MIDI port. Was added just in case and should be always 1.
+        <li>MIDI Channel (1-16)</li>
+        MIDI channel. Almost often is 1 but sometimes can differs. Check for MIDI output channel number at your controller.
+        <li>Additional Velocity (0-127)</li>
+        Increases the sensitivity of the MIDI keyboard by adding extra velocity.
+        <li>Mixing volume (0% - 100%)</li>
+        Volume of internal digital mixer. Can cause clipping if signal too high and internal limiter cannot handle.
+        <li>CC Volume Default (0 - 127) </li>
+        Default volume level. Resets to this value on Bank change if the option "Reset knobs on Bank change" is set.
+        <li>Modulation Wheel mode  </li>
+        Used to control Vibrato value, Low Pass Cut Off, Flanger value or Volume by Modulation Wheel. (default: Vibrato value)
+        <li>Expression Pedal mode</li>
+        Used to control Vibrato value, Low Pass Cut Off, Flanger value or Volume by Expression Pedal. (default: Volume value)
+        <li>Expression Pedal minimum value (0-127)</li>
+        Bottom limitation of CC value for Expression Pedal.
+        <li>Expression Pedal maximum value (0-127)</li>
+        Top limitation of CC value for Expression Pedal.
+        <li>Channel Pressure (Aftertouch) mode</li>
+        Used to control Vibrato value, Low Pass Cut Off, Volume or disabled by Channel Pressure. (default: Volume value)
+        <li>Channel Pressure minimum value (0-127)</li>
+        Bottom limitation of CC value for Channel Pressure.
+        <li>Channel Pressure maximum value (0-127)</li>
+        Top limitation of CC value for Channel Pressure.
+        <li>Low Pass envelope</li>
+        Low Pass envelope behaviour: Staccato (any key press triggers the LP Attack) or Legato (only first key press triggers LP Attack, useful for playing chords)
+        <li>Smart Knobs mode (enable disable)</li>
+        If enabled - the filter value will react to the knob position only if the actual knob position and the filter value match.
+        <li>Reset knobs on Bank change (yes no)</li>
+        Resets all filters values to default on Bank change. Does not affect the predefined filter values of Bank.
+        <li>Edit controls numbers (CC#) </li>
+        Additional submenu where filters CC values can be changed.
+        <li>MIDI Player Sync with master (enable disable) </li>
+        Synchronizes MIDI Player with mater sequencer clock. 
+        <li>Show pressed note info (yes no)</li>
+        Shows pressed note name and MIDI number. Where C0 (0) is the lowest note, G10 (127) is the highest note, and C5 (60) is the "Middle C".
+        <li>Show switched knob info (yes no)</li>
+        Shows information on Control Change, Pitch Bend Wheel, Modulation Wheel, Expression Pedal, Sustain Pedal, Sostenuto Pedal, Volume, Channel Pressure, Program Change and Program Change LSB messages.
+        <li>Instant release on Sample Cut (yes no)</li>
+        If enabled - sample cut will be always with minimum time. Otherwise sample cut time will depends on Release value.
+        <li>Split Mode (enable disable) </li>
+        Splits keyboard up to 4 split groups (ranges) with individual Bank for every group. Can be changed via "Program Change LSB" message: 0 - ALL, 1 - group A, 2 - group B, 3 - group C, 4 - group D, 5 - groups A-B, 6 - groups C-D.
+        <li>A-B Split Groups Note </li>
+        Note name where Split Group B starts.
+        <li>B-C Split Groups Note </li>
+        Note name where Split Group C starts.
+        <li>C-D Split Groups Note </li>
+        Note name where Split Group D starts.
+		<li>Use Separate ADSR in Split Groups (yes no) </li>
+        ADSR values will be kept and changed per each Split Group. Otherwise ADSR values will be common for all Split Groups.
+        <li>Save settings </li>
+        Saves the current settings into internal flash memory.
+        <li>Load settings </li>
+        loads last stored settings from internal flash memory.
+        <li>Scan internal flash memory for bad blocks ()</li>
+        Scanning is performed at initial setup, no need to use this feature!
+        <li>Flash memory ID</li>
+        4GB version: EC-D7-55-B6-78 <br>
+        1GB version: EC-D3-51-95-58
+        <li>Banks information</li>
+        Number of Banks and memory usage
+        <li>Firmware information</li>
+        Firmware version and name.
+    </ul>
+</p>
+
 <p> <h3> FX params and default CC numbers: </h3> </p>
 <p>
     <ul>
@@ -188,140 +378,14 @@
     </ul>
 </p>
 
-<p><h3>Settings:</h3></p>
-<p>
-    <ul>
-        <li>USB-MIDI Wire (1-16) </li>
-        <li>MIDI Channel (1-16)</li>
-        <li>Additional Velocity (0-127)</li>
-        <li>Mixing volume (0% - 100%)</li>
-        <li>CC Volume Default (0 - 127) </li>
-        <li>Modulation wheel mode (Vibrato value, Low Pass Cut Off, Flanger value or Volume) [default: Vibrato value] </li>
-        <li>Expression Pedal mode (Vibrato value, Low Pass Cut Off, Flanger value or Volume) [default: Volume] </li>
-        <li>Expression Pedal minimum value </li>
-        <li>Expression Pedal maximum value </li>
-        <li>Channel Pressure (Aftertouch) mode (Vibrato value, Low Pass Cut Off, Volume or disabled) [default: Volume] </li>
-        <li>Channel Pressure minimum value </li>
-        <li>Channel Pressure maximum value </li>
-        <li>Low Pass envelope (staccato or legato)</li>
-        <li>Smart Knobs mode (enable disable)</li>
-        <li>Reset knobs on Bank change (yes no)</li>
-        <li>Edit controls numbers (CC#) </li>
-        <li>MIDI Player Sync with master (enable disable) </li>
-        <li>Show pressed note info (yes no)</li>
-        <li>Show switched knob info (yes no)</li>
-        <li>Instant release on Sample Cut (yes no)</li>
-        <li>Split Mode (enable disable) </li>
-        <li>A-B Split Groups Note </li>
-        <li>B-C Split Groups Note </li>
-        <li>C-D Split Groups Note </li>
-		<li>Use Separate ADSR in Split Groups (yes no) </li>
-        <li>Save settings </li>
-        <li>Load settings </li>
-        <li>Scan internal flash memory for bad blocks (scanning is performed at initial setup, no need to use this feature)</li>
-        <li>Flash memory ID (4GB version is: EC-D7-55-B6-78; 1GB version is: EC-D3-51-95-58) </li>
-        <li>Banks information: number of Banks and memory usage</li>
-        <li>Firmware information</li>
-    </ul>
-</p>
-
-<p><h3>MIDI Player features:</h3></p>
-<p>
-    <ul>
-        <li>Play MIDI file Track from SD card (supported FAT32)</li>
-        <li>Loop Track</li>
-        <li>Switching Tracks in real time to play one after another</li>
-        <li>Change Tempo or sync with master sequencer</li>
-    </ul>
-</p>
-
 <p><h3>Firmware update steps:</h3></p>
 <p>
-    <ul>
+    <ol type="1">
         <li>Download last firmware file from <a onclick='window.scrollTo("Downloads");'>Downloads -> Firmware</a>.</li>
         <li>Save it to microSD card (should be formatted in FAT32).</li>
         <li>Plug SD card into device.</li>
         <li>Hold encoder button and switch power on to get into "Bootloader mode"</li>
         <li>Choose and install new firmware from SD card.</li>
-    </ul>
-</p>
-
-<p><h3>Menu navigation with encoder:</h3></p>
-<p>
-    <ul>
-        <li>Rotate encoder to switch menu items, change parameters, browse files etc.</li>
-        <li>Press encoder button (down & up) to select menu item, confirm etc.</li>
-        <li>Hold encoder button down to exit to previous menu</li>
-        <li>Hold encoder button down and rotate for quick navigation thru main menu items, then release button to get in (quick mode)</li>
-        <li>"Double click" in the "Knobs FX Patterns" menu to save initial FX parameters for the current Bank</li>
-        <li>"Click" in the "Knobs FX Patterns" menu to switch between CC numbers or CC values view</li>
-    
-    </ul>
-</p>
-
-<p><h3>Additional information:</h3></p>
-<p>
-    <ul>
-        <li>DSP by STM32F407 168MHz microcontroller</li>
-        <li>CS4334 audio DAC</li>
-        <li>AD8532 amplifier</li>
-        <li>4GB Samsung NAND internal flash memory</li>
-        <li>230 mA power consumption</li>
-        <li>5ms latency</li>
-        <li>1.8 inch ST7735R SPI 128*160 TFT LCD Display</li>
-        <li>3.5 jack to DIN5 MIDI IN pinout: Sleeve - 2, Ring - 5, Tip - 4</li>
-        <li>Device weight: 320 grams</li>
-        <li>Device dimensions: 115mm x 91mm x 45mm</li>
-        <li>Steel case dimensions: 115mm x 75mm x 25mm</li>
-    </ul>
-</p>
-
-@@EDITOR_ARTICLE:
-<p>The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
-MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)</p>
-
-<p>Page on <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a></p>
-
-<p>To check Java availability - type in console:</p>
-<p><span class="code">java -version</span></p>
-<p>To be able to launch the .jar file with a "double click" on MAC OS, you need to make it executable:</p>
-<p><span class="code">sudo chmod +x&nbsp;</span></p>
-<p>Then drag .jar file into console, and press enter.</p>
-<p>At least you can always start the program by typing in the console:</p>
-<p><span class="code">java -jar&nbsp;</span></p>
-<p>Then drag .jar file into console, and press enter.</p>
-
-<p> <h3>Usage tips:</h3></p>
-
-<p>
-    <ul>
-        <li>For correct displaying, the name length of the Bank should be not more than 16 characters and consist only of Latin letters.</li>
-        <li>Notes names are based on MIDI specification. Where C0 (0) is the lowest note, G10 (127) is the highest note, and C5 (60) is the "Middle C".</li>
-        <li>To easily load batch of samples in right order - name all your sample files with number at the start.<br>For example: "01_Sample_C5", "02_Sample_C#5", "03_Sample_D5" etc.</li>
-        <li>Use "Pitch Step" option, if you have samples with interval more than semitone.</li>
-        <li>To use "Loop" point your sample wav file should have "Sustain Loop", "Loop" or "Marker" info. You can add it with audio editor such as "Wavosaur", "Sound Forge". </li>
-        <li>To use "Piano" and "Forte" feature you can name your sample files with "_p" and "_f" at the end.<br>For example: "01_Sample_C5" ("default" sample name), "01_Sample_C5_p" ("piano" sample name) and "01_Sample_C5_f" ("forte" sample name). Or simply drag and drop them into corresponding slot.</li>
-        <li>Use "Macro" option, to change specific parameter for all loaded samples.</li>
-    </ul>
-</p>
-
-<p> <h3>Features:</h3></p>
-<p>
-    <ul>
-        <li>Supports Wave PCM 8, 16 and 24 bit various sample rate mono and stereo files, with auto conversion into 44100 Hz 16 bit </li>
-        <li>Up to 3 samples: "Default", "Piano" (vel. 1 - 60) and "Forte" (vel. 110 - 127) for each of 128 notes </li> 
-        <li>Cut Group</li>
-        <li>Dynamic or fixed velocity</li>
-        <li>"One Shot" behaviour</li>
-        <li>Loop Point (by "Sustain Loop", "Loop" or "Marker" info in wav file)</li>
-        <li>Peak normalization</li>
-        <li>Stereo panorama (mono samples only)</li>
-        <li>Default values for all filters parameters</li>
-        <li>Pitch</li>
-        <li>Pitch step</li>
-        <li>Macro</li>
-        <li>Exporting all Bank samples as wav files</li>
-        <li>Drag and Drop</li>
-    </ul>
+    </ol>
 </p>
 

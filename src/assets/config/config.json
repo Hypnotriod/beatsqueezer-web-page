@@ -6,7 +6,7 @@
 		]
 	},
 	"layout": {
-		"sideNavCollapseWidth": "630px"
+		"sideNavCollapseWidth": "720px"
 	},
 	"svgIcons": [
 		{
@@ -53,6 +53,11 @@
 				"textId": "FEATURES",
 				"path": "/features",
 				"iconId": "notes"
+			},
+			{
+				"textId": "MANUAL",
+				"path": "/manual",
+				"iconId": "menu_book"
 			},
 			{
 				"textId": "DOWNLOADS",

@@ -1,5 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+    font-family: MainFont;
+    src: url('/assets/font/main_font');
+}
+
+@font-face {
+    font-family: SecondaryFont;
+    src: url('/assets/font/secondary_font_regular.ttf');
+}
+
+@font-face {
+    font-family: SecondaryFontLight;
+    src: url('/assets/font/secondary_font_light.ttf');
+}
+
 div, body, html {
     padding: 0;
     margin: 0;
@@ -15,27 +30,35 @@ body {
     font-family: MainFont, "Helvetica Neue", sans-serif;
 }
 
-@font-face {
-    font-family: MainFont;
-    src: url('/assets/font/main_font');
-}
-
 li {
-    font-style: italic;
+    font-family: SecondaryFontLight, "Helvetica Neue", sans-serif;
+    font-size: 95%;
+    line-height: 1.5;
 }
 
-.code {
-    color: #404040;
-    background-color: #DDDDDD;
-    margin-left: 10px;
+p {
+    font-family: MainFont, "Helvetica Neue", sans-serif;
 }
 
 h3 {
+    font-family: SecondaryFont, "Helvetica Neue", sans-serif;
     color: #333;
 }
 
 a {
+    font-family: SecondaryFont, "Helvetica Neue", sans-serif;
     color: #333;
+    line-height: 1.5;
+}
+
+.code {
+    white-space: nowrap;
+    max-width: 100%;
+    background: #fff;
+    color: #E74C3C;
+    border: solid 1px #e1e4e5;
+    padding: 2px 5px;
+    font-size: 90%;
 }
 
 .box_shadow {

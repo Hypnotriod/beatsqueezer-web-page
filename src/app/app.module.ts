@@ -29,6 +29,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { LocalizationPipe } from './pipes/LocalizationPipe';
 import { SafePipe } from './pipes/SafePipe';
 import { NoCachePipe } from './pipes/NoCachePipe';
+import { ManualComponent } from './components/routing/manual/manual.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -36,6 +37,7 @@ const appRoutes: Routes = [
   { path: 'photos', component: PhotosComponent },
   { path: 'videos', component: VideosComponent },
   { path: 'features', component: FeaturesComponent },
+  { path: 'manual', component: ManualComponent },
   { path: 'editor', component: EditorComponent },
   { path: '**', component: AboutComponent }
 ];
@@ -58,7 +60,8 @@ export function init_app(initializationService: InitializationService) {
     PhotosComponent,
     VideosComponent,
     FeaturesComponent,
-    EditorComponent
+    EditorComponent,
+    ManualComponent
   ],
   imports: [
     BrowserModule,
