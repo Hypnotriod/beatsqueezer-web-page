@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IConfiguration } from './IConfigurations';
+import { Injectable } from '@angular/core';
 import { NoCachePipe } from 'src/app/pipes/NoCachePipe';
+import { IConfiguration } from './IConfigurations';
 
 @Injectable({
   providedIn: 'root'

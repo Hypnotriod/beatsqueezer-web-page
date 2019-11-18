@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IVideoVO } from 'src/app/services/configuration/IConfigurations';
 import { ConfigurationService } from 'src/app/services/configuration/configuration.service';
+import { IVideoVO } from 'src/app/services/configuration/IConfigurations';
 
 @Component({
   selector: 'app-videos',

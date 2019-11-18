@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { LocalizationService } from 'src/app/services/localization/localization.service';
-import { IAboutVO } from 'src/app/services/configuration/IConfigurations';
 import { ConfigurationService } from 'src/app/services/configuration/configuration.service';
+import { IAboutVO } from 'src/app/services/configuration/IConfigurations';
+import { LocalizationService } from 'src/app/services/localization/localization.service';
 
 @Component({
   selector: 'app-about',

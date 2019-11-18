@@ -1,10 +1,10 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { ConfigurationService } from 'src/app/services/configuration/configuration.service';
-import { IPhotoVO } from 'src/app/services/configuration/IConfigurations';
-import { NgxImageGalleryComponent, GALLERY_CONF, GALLERY_IMAGE } from 'ngx-image-gallery';
 import { BreakpointObserver } from '@angular/cdk/layout';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { GALLERY_CONF, GALLERY_IMAGE, NgxImageGalleryComponent } from 'ngx-image-gallery';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { ConfigurationService } from 'src/app/services/configuration/configuration.service';
+import { IPhotoVO } from 'src/app/services/configuration/IConfigurations';
 
 @Component({
   selector: 'app-photos',

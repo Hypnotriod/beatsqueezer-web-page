@@ -1,9 +1,9 @@
-import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Observable, config } from 'rxjs';
+import { BreakpointObserver } from '@angular/cdk/layout';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ConfigurationService } from 'src/app/services/configuration/configuration.service';
-import { INavigationVO, INavigationBarVO } from 'src/app/services/configuration/IConfigurations';
+import { INavigationBarVO, INavigationVO } from 'src/app/services/configuration/IConfigurations';
 
 @Component({
   selector: 'app-navigation',

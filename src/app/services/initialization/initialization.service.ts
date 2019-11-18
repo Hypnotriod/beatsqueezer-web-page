@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { LocalizationService } from '../localization/localization.service';
-import { ConfigurationService } from '../configuration/configuration.service';
-import { ILocaleVO, ISvgIconVO } from '../configuration/IConfigurations';
 import { MatIconRegistry } from '@angular/material';
 import { DomSanitizer } from '@angular/platform-browser';
+import { ConfigurationService } from '../configuration/configuration.service';
+import { ILocaleVO, ISvgIconVO } from '../configuration/IConfigurations';
+import { LocalizationService } from '../localization/localization.service';
 
 @Injectable({
   providedIn: 'root'
