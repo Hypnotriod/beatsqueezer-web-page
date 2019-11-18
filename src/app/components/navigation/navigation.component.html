@@ -13,27 +13,27 @@
 
     <app-header></app-header>
 
-    <mat-toolbar color="secondary" class="toolbar">
+    <div class="toolbarWrapper" #toolbarWrapper>
+      <mat-toolbar color="secondary" class="toolbar" [ngClass]="{toolbarSticky: isToolbarSticky==true}">
 
-      <button type="button" mat-button (click)="sidenav.toggle()" *ngIf="isHandset | async">
-        <mat-icon>menu</mat-icon>
-        {{"MENU" | getText}}
-      </button>
-
-      <div class="left" layout="row" layout-align="start center" *ngIf="!(isHandset | async)">
-        <button *ngFor="let item of navigationVO.navListItems" routerLink="{{item.path}}"
-          mat-button>{{item.textId | getText}}</button>
-      </div>
-
-      <div class="right" layout="row" layout-align="end center">
-        <button *ngFor="let icon of navBarVO.icons" type="button" mat-icon-button>
-          <mat-icon class="icon_big" svgIcon="{{icon.svgIconId}}" (click)="navigateToUrl(icon.href)"></mat-icon>
+        <button type="button" mat-button (click)="sidenav.toggle()" *ngIf="isHandset | async">
+          <mat-icon>menu</mat-icon>
+          {{"MENU" | getText}}
         </button>
-      </div>
 
-    </mat-toolbar>
+        <div class="left" layout="row" layout-align="start center" *ngIf="!(isHandset | async)">
+          <button *ngFor="let item of navigationVO.navListItems" routerLink="{{item.path}}"
+            mat-button>{{item.textId | getText}}</button>
+        </div>
 
-    <mat-divider></mat-divider>
+        <div class="right" layout="row" layout-align="end center">
+          <button *ngFor="let icon of navBarVO.icons" type="button" mat-icon-button>
+            <mat-icon class="icon_big" svgIcon="{{icon.svgIconId}}" (click)="navigateToUrl(icon.href)"></mat-icon>
+          </button>
+        </div>
+
+      </mat-toolbar>
+    </div>
 
     <div class="content">
       <router-outlet></router-outlet>
