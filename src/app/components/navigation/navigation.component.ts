@@ -32,7 +32,7 @@ export class NavigationComponent {
   }
 
   @HostListener('window:scroll', ['$event']) onScrollEvent(event: Event) {
-    let scrollY: number = (event.currentTarget as Window).scrollY;
+    const scrollY: number = (event.currentTarget as Window).scrollY;
     this.isToolbarSticky = scrollY >= this.toolbarWrapper.nativeElement.offsetTop;
   }
 
