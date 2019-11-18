@@ -31,8 +31,8 @@ export class NavigationComponent {
     this.navBarVO = configuration.configurationVO.navigationBar;
   }
 
-  @HostListener('window:scroll', ['$event']) onScrollEvent(event) {
-    let scrollY: number = ((event as Event).currentTarget as Window).scrollY;
+  @HostListener('window:scroll', ['$event']) onScrollEvent(event: Event) {
+    let scrollY: number = (event.currentTarget as Window).scrollY;
     this.isToolbarSticky = scrollY >= this.toolbarWrapper.nativeElement.offsetTop;
   }
 
