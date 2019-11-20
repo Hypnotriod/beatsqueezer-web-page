@@ -249,25 +249,23 @@
     To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software (Please navigate to Banks Editor tab for more details).
 <p>
 
+<p><h3>Menu navigation with encoder:</h3></p>
+<p>
+        Rotate encoder to switch menu items, change parameters, browse files etc. <br>
+        Press encoder button (down & up) to select menu item, confirm etc. <br>
+        Hold encoder button down to exit to previous menu. <br>
+        Hold encoder button down and rotate for quick navigation thru main menu items, then release button to get in (quick mode). <br>
+        "Double click" in the "Knobs FX Patterns" menu to save initial FX parameters for the current Bank. <br>
+        "Click" in the "Knobs FX Patterns" menu to switch between CC numbers or CC values view. <br>
+</p>
+
 <p><h3>MIDI Player:</h3></p>
 <p>
     The MIDI Player plays tracks from midi files (.mid). <br>
     Only one track can be played simultaneously. This allows to switch between these tracks in real time, like switching patterns in a sequencer. <br>
     Tracks can be looped. <br>
-    Sequencer can be synced with external master sequencer device by MIDI Clock message, and triggered by Start / Stop messages. <br>
+    The MIDI Player can be synced with external master sequencer device by MIDI Clock message. And triggered by Start / Stop messages. <br>
 <p>
-
-<p><h3>Menu navigation with encoder:</h3></p>
-<p>
-    <ul>
-        <li>Rotate encoder to switch menu items, change parameters, browse files etc.</li>
-        <li>Press encoder button (down & up) to select menu item, confirm etc.</li>
-        <li>Hold encoder button down to exit to previous menu</li>
-        <li>Hold encoder button down and rotate for quick navigation thru main menu items, then release button to get in (quick mode)</li>
-        <li>"Double click" in the "Knobs FX Patterns" menu to save initial FX parameters for the current Bank</li>
-        <li>"Click" in the "Knobs FX Patterns" menu to switch between CC numbers or CC values view</li>
-    </ul>
-</p>
 
 <p><h3>Manage Bank menu:</h3></p>
 <p>
