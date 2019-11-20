@@ -209,7 +209,7 @@
         <li>To easily load batch of samples in right order - name all your sample files with number at the start.<br>For example: "01_Sample_C5", "02_Sample_C#5", "03_Sample_D5" etc.</li>
         <li>Use "Pitch Step" option, if you have samples with interval more than semitone. Or if you want to populate keyboard with one sample.</li>
         <li>To use "Loop" point your sample wav file should have "Sustain Loop", "Loop" or "Marker" info. You can add it with audio editor such as "Wavosaur", "Sound Forge", using "M" hotkey (insert marker at playbar/cursor) </li>
-        <li>To use "Piano" and "Forte" feature you can name your sample files with "_p" and "_f" at the end.<br>For example: "01_Sample_C5" ("default" sample name), "01_Sample_C5_p" ("piano" sample name) and "01_Sample_C5_f" ("forte" sample name). Then load all samples simultaniosly. Or simply drag and drop them into corresponding slot.</li>
+        <li>To use "Piano" and "Forte" feature you can name your sample files with "_p" and "_f" at the end.<br>For example: "01_Sample_C5" ("default" sample name), "01_Sample_C5_p" ("piano" sample name) and "01_Sample_C5_f" ("forte" sample name). Then load all samples simultaneously. Or simply drag and drop them into corresponding slot.</li>
         <li>For correct displaying, the name length of the Bank should be not more than 16 characters and consist only of Latin letters.</li>
     </ul>
 </p>
@@ -247,6 +247,14 @@
     Device works only with Bank files (.btsqbank). <br>
     All Banks files can be loaded only from micro SD card.<br>
     To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software (Please navigate to Banks Editor tab for more details).
+<p>
+
+<p><h3>MIDI Player:</h3></p>
+<p>
+    The MIDI Player plays tracks from midi files (.mid). <br>
+    Only one track can be played simultaneously. This allows to switch between these tracks in real time, like switching patterns in a sequencer. <br>
+    Tracks can be looped. <br>
+    Sequencer can be synced with external master sequencer device by MIDI Clock message, and triggered by Start / Stop messages. <br>
 <p>
 
 <p><h3>Menu navigation with encoder:</h3></p>
