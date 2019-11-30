@@ -188,8 +188,9 @@
 @@EDITOR_ARTICLE:
 <p>
     The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
-    MAC, Linux and Windows supported. Requires Java SE Runtime Environment 8 (jre)<br>
-    Page on <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a>
+    MAC, Linux and Windows supported.<br>
+	Requires <a href="https://java.com/en/download/" target="_blank">Java SE Runtime Environment 8 (JRE)</a><br>
+    Source Code at <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a>
 </p>
 <p>
     To check Java availability - type in console: <span class="code">java -version</span><br>
