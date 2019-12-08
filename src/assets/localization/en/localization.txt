@@ -18,47 +18,47 @@
 @@DOWNLOADS_HEDER_6:Design resources rev. 1 (16x2 LCD):
 
 @@ABOUT_ARTICLE:
-<p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo, with up to 16 mono (can be applied panorama) or stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
+<p> The Beatsqueezer - small sample player device which produce Hi-Fi sound in <a>44100 Hz 24 bit stereo</a>, with up to <a>16</a> mono (can be applied panorama) or stereo voices polyphony in <a>44100 Hz 16 bit</a>. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc. </p>
 
 <ul>
-    <li>4GB internal flash memory for keeping samples Banks aka Patches.<br>
-    Up to 13 hours 20 minutes of mono or 6 hours 40 minutes stereo samples.<br>
+    <li><a>4GB internal</a> flash memory for keeping samples Banks aka Patches.<br>
+    Up to <a>13 hours 20 minutes</a> of <a>mono</a> or <a>6 hours 40 minutes stereo<a> samples.<br>
     After loading to the device’s internal memory all Banks are immediately available, no SD card present is required.
     </li>
-    <li>4 knobs for fx filters.<br>
-    Each filters parameters can be accessed with MIDI CC as well.
+    <li><a>4 knobs</a> for fx filters.<br>
+    Each filters parameters can be accessed with <a>MIDI CC</a> as well.
     </li>
-    <li>1 rotary encoder with button for menu navigation.</li>
-    <li>128x160 color TFT display.</li>
-    <li>3.5 jack MIDI IN.</li>
-    <li>6.3 jack stereo audio output.</li>
-    <li>Micro SD card slot.</li>
-    <li>Full size USB B connector for device powering.<br> 
-    Can be used any 500 mA power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
-    And for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru USB-MIDI protocol.
+    <li><a>1 rotary encoder</a> with <a>button</a> for menu navigation.</li>
+    <li><a>128x160</a> color TFT display.</li>
+    <li><a>3.5 jack</a> MIDI IN.</li>
+    <li><a>6.3 jack stereo</a> audio output.</li>
+    <li><a>Micro SD</a> card slot.</li>
+    <li>Full size <a>USB B</a> connector for device powering.<br> 
+    Can be used any <a>500 mA (or higher)</a> power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
+    And for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru <a>USB-MIDI</a> protocol.
     </li>
 </ul>
 
 <p> With "Banks Editor" software, user has possibility to create his own samples Banks (paches): </p>
 
 <ul>
-    <li>Up to 3 samples ("Default", "Piano" and "Forte") for each of 128 notes with unlimited sample length.</li>
-    <li>Sample Loop Point, for infinitive playback.</li>
-    <li>Cut Group, for playing only one sample at one time from specific group (for example: open and close hat, solo instrument), "self" group to stop playing only same sample, if corresponding note pressed twice and "none" group for multiple sample playback.</li>
-    <li>Dynamic or Fixed velocity for each sample.</li>
-    <li>"One Shot" behaviour.</li>
-    <li>If "One Shot" and Loop Point are defined, sample goes to "Loop trigger" mode, when 1-st press will play sample and 2-nd will stop it.</li>
-    <li>Stereo panorama for each note (mono samples only).</li>
+    <li>Up to <a>3 samples</a> ("Default", "Piano" and "Forte") for each of <a>128 notes</a> with <a>unlimited sample length</a>.</li>
+    <li>Sample <a>Loop Point</a>, for infinitive playback.</li>
+    <li><a>Cut Group</a>, for playing only one sample at one time from specific group (for example: open and close hat, solo instrument), "self" group to stop playing only same sample, if corresponding note pressed twice and "none" group for multiple sample playback.</li>
+    <li><a>Dynamic</a> or <a>Fixed</a> velocity for each sample.</li>
+    <li><a>"One Shot"</a> behaviour.</li>
+    <li>If "One Shot" and Loop Point are defined, sample goes to <a>"Loop trigger"</a> mode, when 1-st press will play sample and 2-nd will stop it.</li>
+    <li><a>Stereo panorama</a> for each note (mono samples only).</li>
 </ul>
-<p> Also implemented simple MIDI files track Player. Can be played one MIDI Track from song (MIDI file) at one time. Tracks can be switched (next Track will be played after end of previous) and looped in real time. MIDI Player can be triggered and synced with master sequencer, by MIDI Clock and MIDI messages: </p>
+<p> Also implemented simple <a>MIDI files track Player</a>. Can be played <a>one MIDI Track</a> from a song (MIDI file) at one time. Tracks can be switched (next Track will be played after end of previous) and looped in real time. MIDI Player can be triggered and synced with master sequencer, by MIDI Clock and MIDI messages: </p>
 <ul>
-    <li>Start (Play MIDI Track)</li>
-    <li>Stop (Stop MIDI Track)</li>
-    <li>Song Select (Change MIDI Track)</li>
+    <li>Start <a>(Play MIDI Track)</a></li>
+    <li>Stop <a>(Stop MIDI Track)</a></li>
+    <li>Song Select <a>(Change MIDI Track)</a></li>
 </ul>
 <p> 
-    With "Split Mode" feature, possible to split keyboard in up to 4 ranges (groups), and load individual Bank for every group.<br>
-    Beatsqueezer has a number of master filters and special effects that are available simultaneously: 
+    With <a>"Split Mode"</a> feature, possible to split keyboard in up to <a>4 ranges</a> (groups), and load individual Bank for every group.<br>
+    Beatsqueezer has a number of master <a>filters and special effects</a> that are available simultaneously: 
 </p>
 <ul>
     <li>Low Pass Resonant filter</li>
@@ -71,25 +71,25 @@
     <li>Delay with Low Pass and High Pass filters</li>
     <li>ADSR envelope for Amplitude</li>
     <li>ADSR envelope for Low Pass filter</li>
-    <li>Velocity dependent Attack and Timeshift </li>
+    <li>Velocity dependent Attack and Time Shift </li>
 </ul>
 
-<p> Via MIDI messages are supported: </p>	
+<p> With MIDI messages are supported: </p>	
 <ul>
-    <li>Pitch Bend Wheel +2/-2 semitones</li>
+    <li>Pitch Bend Wheel <a>+2/-2 semitones</a></li>
     <li>Modulation Wheel</li>
     <li>Expression Pedal</li>
     <li>Sustain Pedal</li>
     <li>Sostenuto Pedal</li>
     <li>Volume</li>
-    <li>Channel Pressure (Aftertouch)</li>
-    <li>Program Change (Bank selection) </li>
-	<li>Program Change LSB (Split Group selection) </li>
+    <li>Channel Pressure <a>(Aftertouch)</a></li>
+    <li>Program Change <a>(Bank selection)</a> </li>
+	<li>Program Change <a>LSB (Split Group selection)</a> </li>
 </ul>
 
 <p> 
-    For onboard knobs implemented the "Smart Knobs" behaviour - the filter value will react to the knob position only if the actual knob position and the filter value match. <br>
-    There is a possibility to upgrade firmware from SD card thru built in bootloader. 
+    For onboard knobs implemented the <a>"Smart Knobs"</a> behaviour - the filter value will react to the knob position only if the actual knob position and the filter value match. <br>
+    There is a possibility to upgrade firmware from <a>SD card</a> thru built in <a>bootloader</a>. 
 </p>
 
 @@FEATURES_ARTICLE:
@@ -117,7 +117,7 @@
         <li>Supports Sustain Pedal </li>
         <li>Supports Sostenuto Pedal </li>
         <li>Supports Program Change (Bank selection) </li>
-        <li>Keyboard split feature, up to 4 split groups (ranges) with individual Bank for every group. Can be changed via "Program Change LSB" message: 0 - ALL, 1 - group A, 2 - group B, 3 - group C, 4 - group D, 5 - groups A-B, 6 - groups C-D  </li>
+        <li>Keyboard split feature, up to 4 split groups (ranges) with individual Bank for every group. Can be selected using "Program Change LSB" message: 0 - ALL, 1 - group A, 2 - group B, 3 - group C, 4 - group D, 5 - groups A-B, 6 - groups C-D  </li>
         <li>Smooth parameters changing of filters and FX </li>
 		<li>Change default MIDI CC numbers for all FX parameters (Can be assigned to 102 undefined or general purpose CC numbers) </li>
         <li>Possibility to define initial values for all filters parameters per Bank</li>
@@ -154,7 +154,7 @@
         <li>Delay with Low Pass and High Pass filters</li>
         <li>ADSR envelope for Amplitude</li>
         <li>ADSR envelope for Low Pass filter</li>
-        <li>Velocity dependent Attack and Timeshift </li>
+        <li>Velocity dependent Attack and Time Shift </li>
     </ul>
 </p>
 
@@ -239,7 +239,7 @@
 
 <p><h3>Device powering:</h3></p>
 <p>
-    Device can be powered via USB-B socket with any 500 mA (or more) power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
+    Device can be powered thru USB-B socket with any 500 mA (or more) power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
     Please use external power source and MIDI connection to avoid noises caused by ground loop. For example if several audio device are powered from usb port of same laptop or pc.  
 <p>
 
@@ -266,6 +266,22 @@
     Only one track can be played simultaneously. This allows to switch between these tracks in real time, like switching patterns in a sequencer. <br>
     Tracks can be looped. <br>
     The MIDI Player can be synced with external master sequencer device by MIDI Clock message. And triggered by Start / Stop messages. <br>
+<p>
+
+<p><h3>Split Groups feature:</h3></p>
+<p>
+    By enabling this feature (Settings -> Split Mode), keyboard can be splitted up to 4 split groups (ranges) with individual Bank for every group. <br>
+	To use Separate ADSR, Velocity-dependent Amplitude and Velocity-dependent Time Shift in Split Groups you need to enable this option at Settings. In any case, any other FX parameters stay common to each Split Group. <br>
+	Each group can be selected with "Program Change LSB" message, where: <br>
+	<ul>
+        <li>0 LSB means ALL groups selected</li>
+		<li>1 LSB means group A selected</li>
+		<li>2 LSB means group B selected</li>
+		<li>3 LSB means group C selected</li>
+		<li>4 LSB means group D selected</li>
+		<li>5 LSB means groups A-B selected</li>
+		<li>6 LSB means groups C-D selected</li>
+	</ul>
 <p>
 
 <p><h3>Manage Bank menu:</h3></p>
@@ -326,15 +342,15 @@
         <li>Instant release on Sample Cut (yes no)</li>
         If enabled - sample cut will be always with minimum time. Otherwise sample cut time will depends on Release value.
         <li>Split Mode (enable disable) </li>
-        Splits keyboard up to 4 split groups (ranges) with individual Bank for every group. Can be changed via "Program Change LSB" message: 0 - ALL, 1 - group A, 2 - group B, 3 - group C, 4 - group D, 5 - groups A-B, 6 - groups C-D.
+        Splits keyboard up to 4 split groups (ranges) with individual Bank for every group. Can be selected with "Program Change LSB" message: 0 - ALL, 1 - group A, 2 - group B, 3 - group C, 4 - group D, 5 - groups A-B, 6 - groups C-D.
         <li>A-B Split Groups Note </li>
         Note name where Split Group B starts.
         <li>B-C Split Groups Note </li>
         Note name where Split Group C starts.
         <li>C-D Split Groups Note </li>
         Note name where Split Group D starts.
-		<li>Use Separate ADSR in Split Groups (yes no) </li>
-        ADSR values will be kept and changed per each Split Group. Otherwise ADSR values will be common for all Split Groups.
+		<li>Keep ADSR/Vatt/VTsh per Split Group (yes no) </li>
+        ADSR values as well as Velocity-dependent Amplitude and Velocity-dependent Time Shift will be kept and changed per each Split Group. Otherwise these parameters will be common for all Split Groups.
         <li>Save settings </li>
         Saves the current settings into internal flash memory.
         <li>Load settings </li>
@@ -351,64 +367,64 @@
     </ul>
 </p>
 
-<p> <h3> FX params and default CC numbers: </h3> </p>
+<p> <h3> FX parameters and default CC numbers: </h3> </p>
 <p>
     <ul>
-        <li>Low Pass Cut Off (cc 40)</li>
-        <li>Low Pass Resonance (cc 41)</li>
-        <li>Ring modulation frequency (cc 42)</li>
-        <li>Ring modulation value (cc 43)</li>
-        <li>Flanger frequency (cc 44)</li>
-        <li>Flanger value (cc 45)</li>
-        <li>Rotary Vibrato frequency (cc 46)</li>
-        <li>Rotary Vibrato value (cc 47)</li>
-        <li>Limiter value (cc 48)</li>
-        <li>Bitcrusher value (cc 49)</li>
-        <li>Granular Glitch Shift (cc 50)</li>
-        <li>Granular Glitch Length (cc 51)</li>
-        <li>Delay High Pass value (cc 52)</li>
-        <li>Delay Low Pass value (cc 53)</li>
-        <li>Delay value (cc 54)</li>
-        <li>Delay time (cc 55)</li>
-        <li>Amplitude Attack value (cc 56)</li>
-        <li>Amplitude Decay value (cc 57)</li>
-        <li>Amplitude Sustain value (cc 58)</li>
-        <li>Amplitude Release value (cc 59)</li>
-        <li>Low Pass Attack value (cc 60)</li>
-        <li>Low Pass Decay value (cc 61)</li>
-        <li>Low Pass Sustain value (cc 62)</li>
-        <li>Low Pass Release value (cc 63)</li>
-        <li>Velocity-dependent Amplitude Attack (cc 70) </li>
-        <li>Velocity-dependent Timeshift (cc 71) </li>
-        <li>Low Pass Envelope Amount (cc 72)</li>
-        <li>Low Pass Mix (cc 73)</li>
-        <li>Delay Panorama Spread (cc 74)</li>
-        <li>Delay Feedback (cc 75)</li>
+        <li>Low Pass Cut Off <a>(cc 40)</a></li>
+        <li>Low Pass Resonance <a>(cc 41)</a></li>
+        <li>Ring modulation frequency <a>(cc 42)</a></li>
+        <li>Ring modulation value <a>(cc 43)</a></li>
+        <li>Flanger frequency <a>(cc 44)</a></li>
+        <li>Flanger value <a>(cc 45)</a></li>
+        <li>Rotary Vibrato frequency <a>(cc 46)</a></li>
+        <li>Rotary Vibrato value <a>(cc 47)</a></li>
+        <li>Limiter value <a>(cc 48)</a></li>
+        <li>Bitcrusher value <a>(cc 49)</a></li>
+        <li>Granular Glitch Shift <a>(cc 50)</a></li>
+        <li>Granular Glitch Length <a>(cc 51)</a></li>
+        <li>Delay High Pass value <a>(cc 52)</a></li>
+        <li>Delay Low Pass value <a>(cc 53)</a></li>
+        <li>Delay value <a>(cc 54)</a></li>
+        <li>Delay time <a>(cc 55)</a></li>
+        <li>Amplitude Attack value <a>(cc 56)</a></li>
+        <li>Amplitude Decay value <a>(cc 57)</a></li>
+        <li>Amplitude Sustain value <a>(cc 58)</a></li>
+        <li>Amplitude Release value <a>(cc 59)</a></li>
+        <li>Low Pass Attack value <a>(cc 60)</a></li>
+        <li>Low Pass Decay value <a>(cc 61)</a></li>
+        <li>Low Pass Sustain value <a>(cc 62)</a></li>
+        <li>Low Pass Release value <a>(cc 63)</a></li>
+        <li>Velocity-dependent Amplitude Attack <a>(cc 70)</a> </li>
+        <li>Velocity-dependent Time Shift <a>(cc 71)</a> </li>
+        <li>Low Pass Envelope Amount <a>(cc 72)</a></li>
+        <li>Low Pass Mix <a>(cc 73)</a></li>
+        <li>Delay Panorama Spread <a>(cc 74)</a></li>
+        <li>Delay Feedback <a>(cc 75)</a></li>
     </ul>
 </p>
 
 <p> <h3> Additional MIDI messages: </h3> </p>
 <p>
     <ul>
-        <li>Pitch Band Wheel (+2/-2 semitones) </li>
-        <li>Modulation Wheel (cc 1) </li>
-        <li>Expression Pedal (cc 11) </li>
-        <li>Sustain Pedal (cc 64) </li>
-        <li>Sostenuto Pedal (cc 66) </li>
-        <li>Volume (cc 7)</li>
-        <li>Channel Pressure (Aftertouch) </li>
-        <li>Program Change (Bank selection) </li>
-		<li>Program Change LSB (Split Group selection) </li>
-        <li>Start (Play MIDI Track) </li>
-        <li>Stop (Stop MIDI Track) </li> 
-        <li>Song Select (Change MIDI Track)</li>
+        <li>Pitch Band Wheel <a>(+2/-2 semitones)</a> </li>
+        <li>Modulation Wheel <a>(cc 1)</a> </li>
+        <li>Expression Pedal <a>(cc 11)</a> </li>
+        <li>Sustain Pedal <a>(cc 64)</a> </li>
+        <li>Sostenuto Pedal <a>(cc 66)</a> </li>
+        <li>Volume <a>(cc 7)</a></li>
+        <li>Channel Pressure <a>(Aftertouch)</a> </li>
+        <li>Program Change <a>(Bank selection)</a> </li>
+		<li>Program Change LSB <a>(Split Group selection)</a> </li>
+        <li>Start <a>(Play MIDI Track)</a> </li>
+        <li>Stop <a>(Stop MIDI Track)</a> </li> 
+        <li>Song Select <a>(Change MIDI Track)</a></li>
     </ul>
 </p>
 
 <p><h3>Firmware update steps:</h3></p>
 <p>
     <ol type="1">
-        <li>Download last firmware file from <a onclick='window.scrollTo("Downloads");'>Downloads -> Firmware</a>.</li>
+        <li>Download last firmware file from <a>Downloads -> Firmware</a>.</li>
         <li>Save it to microSD card (should be formatted in FAT32).</li>
         <li>Plug SD card into device.</li>
         <li>Hold encoder button and switch power on to get into "Bootloader mode"</li>
