@@ -168,23 +168,6 @@
     </ul>
 </p>
 
-<p><h3>Additional information:</h3></p>
-<p>
-    <ul>
-        <li>DSP by STM32F407 168MHz microcontroller</li>
-        <li>CS4334 audio DAC</li>
-        <li>AD8532 amplifier</li>
-        <li>4GB Samsung NAND internal flash memory</li>
-        <li>230 mA power consumption</li>
-        <li>5ms latency</li>
-        <li>1.8 inch ST7735R SPI 128*160 TFT LCD Display</li>
-        <li>3.5 jack to DIN5 MIDI IN pinout: Sleeve - 2, Ring - 5, Tip - 4</li>
-        <li>Device weight: 320 grams</li>
-        <li>Device dimensions: 115mm x 91mm x 45mm</li>
-        <li>Steel case dimensions: 115mm x 75mm x 25mm</li>
-    </ul>
-</p>
-
 @@EDITOR_ARTICLE:
 <p>
     The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
@@ -430,5 +413,22 @@
         <li>Hold encoder button and switch power on to get into "Bootloader mode"</li>
         <li>Choose and install new firmware from SD card.</li>
     </ol>
+</p>
+
+<p><h3>Additional information:</h3></p>
+<p>
+    <ul>
+        <li>DSP by STM32F407 168MHz microcontroller</li>
+        <li>CS4334 audio DAC</li>
+        <li>AD8532 amplifier</li>
+        <li>4GB Samsung NAND internal flash memory</li>
+        <li>230 mA power consumption</li>
+        <li>5ms latency</li>
+        <li>1.8 inch ST7735R SPI 128*160 TFT LCD Display</li>
+        <li>3.5 jack to DIN5 MIDI IN pinout: Sleeve - 2, Ring - 5, Tip - 4</li>
+        <li>Device weight: 320 grams</li>
+        <li>Device dimensions: 115mm x 91mm x 45mm</li>
+        <li>Steel case dimensions: 115mm x 75mm x 25mm</li>
+    </ul>
 </p>
 
