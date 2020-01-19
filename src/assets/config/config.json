@@ -89,6 +89,14 @@
 	},
 	"photos": [
 		{
+			"previewUrl": "assets/img/preview/7.JPG",
+			"fullSizeUrl": "assets/img/full_size/7.JPG"
+		},
+		{
+			"previewUrl": "assets/img/preview/8.JPG",
+			"fullSizeUrl": "assets/img/full_size/8.JPG"
+		},
+		{
 			"previewUrl": "assets/img/preview/1.JPG",
 			"fullSizeUrl": "assets/img/full_size/1.JPG"
 		},
