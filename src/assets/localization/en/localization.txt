@@ -32,7 +32,7 @@
     <li><a>128x160</a> color TFT display.</li>
     <li><a>3.5 jack</a> MIDI IN.</li>
     <li><a>6.3 jack stereo</a> audio output.</li>
-    <li><a>Micro SD</a> card slot.</li>
+    <li><a>Micro SD</a> card slot (supported FAT32).</li>
     <li>Full size <a>USB B</a> connector for device powering.<br> 
     Can be used any <a>500 mA (or higher)</a> power source: mobile phone charger, 5V adapter with USB socket, power bank, etc.<br>
     And for communication with PC, MAC, mobile phones and tablets (with usb host feature) thru <a>USB-MIDI</a> protocol.
@@ -89,7 +89,7 @@
 
 <p> 
     For onboard knobs implemented the <a>"Smart Knobs"</a> behaviour - the filter value will react to the knob position only if the actual knob position and the filter value match. <br>
-    There is a possibility to upgrade firmware from <a>SD card</a> thru built in <a>bootloader</a>. 
+    There is a possibility to upgrade firmware from SD card (supported FAT32) using built in bootloader. 
 </p>
 
 @@FEATURES_ARTICLE:
@@ -229,7 +229,7 @@
 <p><h3>Banks (patches):</h3></p>
 <p>
     Device works only with Bank files (.btsqbank). <br>
-    All Banks files can be loaded only from micro SD card.<br>
+    All Banks files can be loaded only from micro SD card (supported FAT32).<br>
     To load own samples user should create a Bank file using "Beatsqueezer Bank editor" software (Please navigate to Banks Editor tab for more details).
 <p>
 
@@ -274,7 +274,7 @@
         Changes program number of selected Bank.
         <li>Save Knobs.</li>
         Saves current knobs positions for selected Bank.
-        <li>Save To SD card</li>
+        <li>Save To SD card (supported FAT32).</li>
         Creates "Beatsqueezer Banks" folder on SD card and saves selected Bank to it. For now this feature is unstable! Can cause "SD card operation Error".
         <li>Delete</li>
         Deletes selected Bank from internal flash memory.
