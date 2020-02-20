@@ -172,6 +172,7 @@
 <p>
     The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
     MAC, Linux and Windows supported.<br>
+	<a href="https://drive.google.com/open?id=1_BRYRWC18uddm0AmWqf1C7_hbP-zkwZ0" target="_blank">Download last version</a><br>
 	Requires <a href="https://java.com/en/download/" target="_blank">Java SE Runtime Environment 8 (JRE)</a><br>
     Source Code at <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a>
 </p>
@@ -192,7 +193,7 @@
         <li>Notes names are based on MIDI specification. Where C0 (0) is the lowest note, G10 (127) is the highest note, and C5 (60) is the "Middle C". You can choose between "C5", "C4" or "C3" as "Middle C" at "Options" -> "Notes Names Display"</li>
         <li>To easily load batch of samples in right order - name all your sample files with number at the start.<br>For example: "01_Sample_C5", "02_Sample_C#5", "03_Sample_D5" etc.</li>
         <li>Use "Pitch Step" option, if you have samples with interval more than semitone. Or if you want to populate keyboard with one sample.</li>
-        <li>To use "Loop" point your sample wav file should have "Sustain Loop", "Loop" or "Marker" info. You can add it with audio editor such as "Wavosaur", "Sound Forge", using "M" hotkey (insert marker at playbar/cursor) </li>
+        <li>"Loop point" can be adjusted with "<" and ">" buttons below the "Panorama" slider. Or you can drag it with mouse. To fine tune use "Ctrl" or "Command" with "<" and ">" buttons.</li>
         <li>To use "Piano" and "Forte" feature you can name your sample files with "_p" and "_f" at the end.<br>For example: "01_Sample_C5" ("default" sample name), "01_Sample_C5_p" ("piano" sample name) and "01_Sample_C5_f" ("forte" sample name). Then load all samples simultaneously. Or simply drag and drop them into corresponding slot.</li>
         <li>For correct displaying, the name length of the Bank should be not more than 16 characters and consist only of Latin letters.</li>
     </ul>
@@ -207,6 +208,7 @@
         <li>Dynamic or fixed velocity</li>
         <li>"One Shot" behaviour</li>
         <li>Loop Point (by "Sustain Loop", "Loop" or "Marker" info in wav file)</li>
+        <li>Adjust Loop Point</li>
         <li>Peak normalization</li>
         <li>Stereo panorama (mono samples only)</li>
         <li>Default values for all filters parameters</li>
