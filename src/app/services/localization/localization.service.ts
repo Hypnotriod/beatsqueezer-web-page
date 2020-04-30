@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { NoCachePipe } from 'src/app/pipes/NoCachePipe';
-import { CReplacements } from './CReplacements';
+import { Replacements } from './Replacements';
 
 @Injectable({
   providedIn: 'root'
@@ -25,7 +25,7 @@ export class LocalizationService {
 
   public requestLocalizations(languageId: string, onComplete: (success: boolean) => void): void {
     this.onComplete = onComplete;
-    const url: string = LocalizationService.URL_LOCALIZATION.replace(CReplacements.LANGUAGE_ID, languageId);
+    const url: string = LocalizationService.URL_LOCALIZATION.replace(Replacements.LANGUAGE_ID, languageId);
     this.http.get(this.noCache.transform(url), { responseType: 'text' }).subscribe(
       (data: string) => this.onDataLoadingSucces(data),
       (error: any) => this.onDataLoadingError(error));

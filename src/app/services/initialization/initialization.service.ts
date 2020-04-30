@@ -16,7 +16,7 @@ export class InitializationService {
     private configurationService: ConfigurationService,
     private localization: LocalizationService) { }
 
-  public init(): Promise<(resolve, reject) => void> {
+  public init(): Promise<void> {
     return new Promise((resolve, reject) => {
       this.configurationService.requestConfigurations((configurationsLoadSuccess: boolean) => {
         if (configurationsLoadSuccess) {

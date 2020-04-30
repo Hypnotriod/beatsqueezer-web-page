@@ -42,7 +42,7 @@ const appRoutes: Routes = [
   { path: '**', component: AboutComponent }
 ];
 
-export function init_app(initializationService: InitializationService) {
+export function init_app(initializationService: InitializationService): () => Promise<void> {
   return () => initializationService.init();
 }
 
