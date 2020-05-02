@@ -77,7 +77,7 @@ export function init_app(initializationService: InitializationService): () => Pr
     MatMenuModule,
     HttpClientModule,
     NgxImageGalleryModule,
-    RouterModule.forRoot(appRoutes, { enableTracing: true, useHash: true, scrollPositionRestoration: 'enabled' })
+    RouterModule.forRoot(appRoutes, { enableTracing: false, useHash: true, scrollPositionRestoration: 'enabled' })
   ],
   providers: [
     NoCachePipe,
