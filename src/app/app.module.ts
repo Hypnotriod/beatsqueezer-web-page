@@ -1,6 +1,6 @@
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
-import { APP_INITIALIZER, NgModule, OnInit } from '@angular/core';
+import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { MatCheckboxModule, MatIconModule } from '@angular/material';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -86,10 +86,6 @@ export function init_app(initializationService: InitializationService): () => Pr
   bootstrap: [AppComponent]
 })
 
-export class AppModule implements OnInit {
+export class AppModule {
   constructor() { }
-
-  ngOnInit(): void {
-    window.document.body.classList.remove('loading');
-  }
 }

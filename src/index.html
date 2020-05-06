@@ -7,25 +7,126 @@
   <base href="/">
 
   <style type="text/css">
-    .body_loading {
+    .body-loading {
       background: url(/assets/gif/loading_spiner.gif) center center no-repeat;
+    }
+
+    .loading-main {
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 160px;
+      height: 160px;
+    }
+
+    .loading-main div {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: #222222;
+      border-radius: 50%;
+      animation: loading-main 1.2s linear infinite;
+    }
+
+    .loading-main div:nth-child(1) {
+      animation-delay: 0s;
+      top: 74px;
+      left: 132px;
+    }
+
+    .loading-main div:nth-child(2) {
+      animation-delay: -0.1s;
+      top: 44px;
+      left: 124px;
+    }
+
+    .loading-main div:nth-child(3) {
+      animation-delay: -0.2s;
+      top: 22px;
+      left: 104px;
+    }
+
+    .loading-main div:nth-child(4) {
+      animation-delay: -0.3s;
+      top: 14px;
+      left: 74px;
+    }
+
+    .loading-main div:nth-child(5) {
+      animation-delay: -0.4s;
+      top: 22px;
+      left: 44px;
+    }
+
+    .loading-main div:nth-child(6) {
+      animation-delay: -0.5s;
+      top: 44px;
+      left: 22px;
+    }
+
+    .loading-main div:nth-child(7) {
+      animation-delay: -0.6s;
+      top: 74px;
+      left: 14px;
+    }
+
+    .loading-main div:nth-child(8) {
+      animation-delay: -0.7s;
+      top: 104px;
+      left: 22px;
+    }
+
+    .loading-main div:nth-child(9) {
+      animation-delay: -0.8s;
+      top: 124px;
+      left: 44px;
+    }
+
+    .loading-main div:nth-child(10) {
+      animation-delay: -0.9s;
+      top: 132px;
+      left: 74px;
+    }
+
+    .loading-main div:nth-child(11) {
+      animation-delay: -1s;
+      top: 124px;
+      left: 104px;
+    }
+
+    .loading-main div:nth-child(12) {
+      animation-delay: -1.1s;
+      top: 104px;
+      left: 124px;
+    }
+
+    @keyframes loading-main {
+      0%, 20%, 80%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.5);
+      }
     }
   </style>
 
-  <meta name="Description" content="The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo, with up to 16 mono (can be applied panorama) or stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc.">
-  <meta name="title" content="The Beatsqueezer" />
-  <meta property="og:title" content="The Beatsqueezer" />
-  <meta property="og:description" content="The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo, with up to 16 mono (can be applied panorama) or stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc.">
-  <meta property="og:url" content="http://hypnotriod.org/beatsqueezer" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://hypnotriod.org/beatsqueezer/assets/img/preview/3.jpg" />
+<meta name="Description" content="The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo, with up to 16 mono (can be applied panorama) or stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc.">
+<meta name="title" content="The Beatsqueezer" />
+<meta property="og:title" content="The Beatsqueezer" />
+<meta property="og:description" content="The Beatsqueezer - small sample player device which produce Hi-Fi sound in 44100 Hz 24 bit stereo, with up to 16 mono (can be applied panorama) or stereo voices polyphony in 44100 Hz 16 bit. It is designed to bring on stage Mellotron-style synthesizer with unique sampled instruments, one shot / looped samples sets, drums, backing tracks, sound effects etc.">
+<meta property="og:url" content="http://hypnotriod.org/beatsqueezer" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://hypnotriod.org/beatsqueezer/assets/img/preview/3.jpg" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body class="body_loading">
+<body>
+  <div id="loading-main" class="loading-main"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
   <app-root></app-root>
 </body>
 
