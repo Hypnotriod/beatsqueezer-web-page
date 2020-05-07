@@ -1,6 +1,6 @@
 @@HEADER_H1:The Beatsqueezer
 @@HEADER_H2:Hi-Fi 16 Voice Polyphonic Sample Player
-@@FOOTER:Designed by Hypnotriod 2019©
+@@FOOTER:Designed by Hypnotriod 2018-2020©
 @@MENU:Menu
 @@ABOUT:About
 @@DOWNLOADS:Downloads
