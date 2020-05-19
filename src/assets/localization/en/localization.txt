@@ -427,7 +427,16 @@
         <li>230 mA power consumption</li>
         <li>5ms latency</li>
         <li>1.8 inch ST7735R SPI 128*160 TFT LCD Display</li>
-        <li>3.5 jack to DIN5 MIDI IN pinout: Sleeve - 2, Ring - 5, Tip - 4</li>
+        <li>3.5 jack to DIN5 MIDI IN pinout: Sleeve - 2, Ring - 5, Tip - 4<br>
+            Compatible with:
+           <ul>
+                <li>1010music - MX4</li>
+                <li>Arturia - Beatstep Pro</li>
+                <li>Arturia - Keystep</li>
+                <li>Novation - Circuit</li>
+                <li>Novation - Launchpad Pro</li>
+           </ul> 
+        </li>
         <li>Device weight: 320 grams</li>
         <li>Device dimensions: 115mm x 91mm x 45mm</li>
         <li>Steel case dimensions: 115mm x 75mm x 25mm</li>
