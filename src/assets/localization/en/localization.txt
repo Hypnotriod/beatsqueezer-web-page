@@ -173,12 +173,13 @@
     The Beatsqueezer Bank editor software allows user to create his own sample-Banks files.
     MAC, Linux and Windows supported.<br>
 	<a href="https://drive.google.com/open?id=1_BRYRWC18uddm0AmWqf1C7_hbP-zkwZ0" target="_blank">Download last version</a><br>
-	Requires <a href="https://java.com/en/download/" target="_blank">Java SE Runtime Environment 8 (JRE)</a><br>
+	Requires <a href="https://java.com/en/download/" target="_blank">Java SE Runtime Environment 8 (JRE)</a> to be installed<br>
     Source Code at <a href="https://github.com/Hypnotriod/beatsqueezer-bank-editor" target="_blank">Github</a>
 </p>
 <p>
     To check Java availability - type in console: <span class="code">java -version</span><br>
-    To be able to launch the .jar file with a "double click" on MAC OS, you need to make it executable: <span class="code">sudo chmod +x&nbsp;</span> then drag .jar file into console, and press enter.<br>
+    To run the program, you just need to double click on the .jar file.<br>
+    To be able to launch the .jar file with a "double click" on MAC OS / Linux, you might need to make it executable by typing in the console: <span class="code">sudo chmod +x&nbsp;</span> then drag .jar file into console, and press enter.<br>
     At least you can always start the program by typing in the console: <span class="code">java -jar&nbsp;</span> then drag .jar file into console, and press enter.
 </p>
 
